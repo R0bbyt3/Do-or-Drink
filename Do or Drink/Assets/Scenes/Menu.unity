@@ -721,7 +721,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 273559678}
-  - component: {fileID: 273559679}
   m_Layer: 5
   m_Name: d6
   m_TagString: Untagged
@@ -753,18 +752,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &273559679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273559677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33b30ea899dbba4c8fa503a8ff33b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &287087784
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,7 +1058,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 363263441}
-  - component: {fileID: 363263442}
   m_Layer: 5
   m_Name: d3
   m_TagString: Untagged
@@ -1103,18 +1089,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &363263442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 363263440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33b30ea899dbba4c8fa503a8ff33b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &391437603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1540,7 @@ GameObject:
   - component: {fileID: 653476401}
   - component: {fileID: 653476400}
   - component: {fileID: 653476399}
+  - component: {fileID: 653476402}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1637,14 +1612,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 734844080}
-        m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 1
+      - m_Target: {fileID: 653476402}
+        m_TargetAssemblyTypeName: ButtonMenuDeck, Assembly-CSharp
+        m_MethodName: buttonChangeUI
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1687,6 +1662,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653476397}
   m_CullTransparentMesh: 1
+--- !u!114 &653476402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653476397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a5bae18ec15ac40b663fe950fba734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 1072134111}
+  playInfo: {fileID: 1434531357}
 --- !u!1 &698446062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1688,7 @@ GameObject:
   - component: {fileID: 698446066}
   - component: {fileID: 698446065}
   - component: {fileID: 698446064}
+  - component: {fileID: 698446067}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1770,14 +1760,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 734844080}
-        m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 1
+      - m_Target: {fileID: 698446067}
+        m_TargetAssemblyTypeName: ButtonMenuDeck, Assembly-CSharp
+        m_MethodName: buttonChangeUI
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1820,6 +1810,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698446062}
   m_CullTransparentMesh: 1
+--- !u!114 &698446067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698446062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a5bae18ec15ac40b663fe950fba734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 1072134111}
+  playInfo: {fileID: 1434531357}
 --- !u!1 &700546518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1832,6 +1836,7 @@ GameObject:
   - component: {fileID: 700546522}
   - component: {fileID: 700546521}
   - component: {fileID: 700546520}
+  - component: {fileID: 700546523}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1903,14 +1908,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 734844080}
-        m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 1
+      - m_Target: {fileID: 700546523}
+        m_TargetAssemblyTypeName: ButtonMenuDeck, Assembly-CSharp
+        m_MethodName: buttonChangeUI
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1953,6 +1958,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700546518}
   m_CullTransparentMesh: 1
+--- !u!114 &700546523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700546518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a5bae18ec15ac40b663fe950fba734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 1072134111}
+  playInfo: {fileID: 1434531357}
 --- !u!1 &734844079
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,7 +2282,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 741207711}
-  - component: {fileID: 741207712}
   m_Layer: 5
   m_Name: d2
   m_TagString: Untagged
@@ -2295,18 +2313,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &741207712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741207710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33b30ea899dbba4c8fa503a8ff33b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &863921294
 GameObject:
   m_ObjectHideFlags: 0
@@ -3185,7 +3191,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 978366257}
-  - component: {fileID: 978366258}
   m_Layer: 5
   m_Name: d5
   m_TagString: Untagged
@@ -3217,18 +3222,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &978366258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978366256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33b30ea899dbba4c8fa503a8ff33b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &985682191
 GameObject:
   m_ObjectHideFlags: 0
@@ -3624,9 +3617,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeckType:
-  - TypeENG: 
+  - number: 1
     onoffd: 0
-    CardType: []
+    CardType:
+    - CardNumber: 1
+      CardContentENG: asdfasd
+      CardContentTopENG: asfdfasd
+    - CardNumber: 1
+      CardContentENG: asdfasd
+      CardContentTopENG: asfdfasd
+  - number: 2
+    onoffd: 0
+    CardType:
+    - CardNumber: 1
+      CardContentENG: sadfasdf
+      CardContentTopENG: asfdfasd
+  - number: 3
+    onoffd: 0
+    CardType:
+    - CardNumber: 1
+      CardContentENG: dsafsad
+      CardContentTopENG: asdfasd
+  - number: 4
+    onoffd: 0
+    CardType:
+    - CardNumber: 1
+      CardContentENG: asdsd
+      CardContentTopENG: sadasd
+  - number: 5
+    onoffd: 0
+    CardType:
+    - CardNumber: 1
+      CardContentENG: sadasd
+      CardContentTopENG: asdasd
+  - number: 6
+    onoffd: 0
+    CardType:
+    - CardNumber: 1
+      CardContentENG: sadas
+      CardContentTopENG: dasasf
 --- !u!1 &1079237360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,7 +3727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: 23}
+  m_AnchoredPosition: {x: 190, y: 21}
   m_SizeDelta: {x: 210.36, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090731376
@@ -3928,6 +3957,7 @@ GameObject:
   - component: {fileID: 1262855049}
   - component: {fileID: 1262855048}
   - component: {fileID: 1262855047}
+  - component: {fileID: 1262855050}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3999,14 +4029,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 734844080}
-        m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 1
+      - m_Target: {fileID: 1262855050}
+        m_TargetAssemblyTypeName: ButtonMenuDeck, Assembly-CSharp
+        m_MethodName: buttonChangeUI
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4049,6 +4079,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262855045}
   m_CullTransparentMesh: 1
+--- !u!114 &1262855050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262855045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a5bae18ec15ac40b663fe950fba734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 1072134111}
+  playInfo: {fileID: 1434531357}
 --- !u!1 &1269023778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4779,9 +4823,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1434531355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c03e4aeaec8394fadec89e26b03a19, type: 3}
+  m_Script: {fileID: 11500000, guid: c8a1dac0a5806b44794cf3c6646fbffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeckNumberText: {fileID: 1090731376}
+  CardNumberText: {fileID: 1468588259}
+  PlayButton: {fileID: 206954645}
+  cardData: {fileID: 1072134111}
 --- !u!1 &1447565524
 GameObject:
   m_ObjectHideFlags: 0
@@ -4791,7 +4839,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1447565525}
-  - component: {fileID: 1447565526}
   m_Layer: 5
   m_Name: d1
   m_TagString: Untagged
@@ -4823,18 +4870,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1447565526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447565524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33b30ea899dbba4c8fa503a8ff33b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1459644087
 GameObject:
   m_ObjectHideFlags: 0
@@ -4946,7 +4981,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 189.74997, y: -26.6}
+  m_AnchoredPosition: {x: 189.74997, y: -28.599981}
   m_SizeDelta: {x: 210.86, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468588259
@@ -5267,6 +5302,7 @@ GameObject:
   - component: {fileID: 1641763624}
   - component: {fileID: 1641763623}
   - component: {fileID: 1641763622}
+  - component: {fileID: 1641763625}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -5338,14 +5374,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 734844080}
-        m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 1
+      - m_Target: {fileID: 1641763625}
+        m_TargetAssemblyTypeName: ButtonMenuDeck, Assembly-CSharp
+        m_MethodName: buttonChangeUI
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5388,6 +5424,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641763620}
   m_CullTransparentMesh: 1
+--- !u!114 &1641763625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641763620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a5bae18ec15ac40b663fe950fba734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 1072134111}
+  playInfo: {fileID: 1434531357}
 --- !u!1 &1662449610
 GameObject:
   m_ObjectHideFlags: 0
@@ -5400,6 +5450,7 @@ GameObject:
   - component: {fileID: 1662449614}
   - component: {fileID: 1662449613}
   - component: {fileID: 1662449612}
+  - component: {fileID: 1662449615}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -5471,14 +5522,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 734844080}
-        m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
-        m_MethodName: PlaySound
-        m_Mode: 1
+      - m_Target: {fileID: 1662449615}
+        m_TargetAssemblyTypeName: ButtonMenuDeck, Assembly-CSharp
+        m_MethodName: buttonChangeUI
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5521,6 +5572,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662449610}
   m_CullTransparentMesh: 1
+--- !u!114 &1662449615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662449610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a5bae18ec15ac40b663fe950fba734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData: {fileID: 1072134111}
+  playInfo: {fileID: 1434531357}
 --- !u!1 &1695887885
 GameObject:
   m_ObjectHideFlags: 0
@@ -6496,7 +6561,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1972211277}
-  - component: {fileID: 1972211278}
   m_Layer: 5
   m_Name: d4
   m_TagString: Untagged
@@ -6528,18 +6592,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1972211278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972211276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33b30ea899dbba4c8fa503a8ff33b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1975450451
 GameObject:
   m_ObjectHideFlags: 0

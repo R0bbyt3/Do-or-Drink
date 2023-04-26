@@ -13,7 +13,7 @@ public List<DeckType> DeckType = new List<DeckType>();
 public class DeckType
 {
 
-public string TypeENG;
+public int number;
 public bool onoffd;
 public List<CardType> CardType = new List<CardType>();
 

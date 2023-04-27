@@ -30,7 +30,7 @@ public class PlayInfo : MonoBehaviour
 
     for (int j = 0; j < cardData.DeckType.Count; j++)
     {
-        if (cardData.DeckType[j].onoffd == true)
+        if (cardData.DeckType[j].onoff == true)
         {
 
             DeckNumber = DeckNumber + 1;

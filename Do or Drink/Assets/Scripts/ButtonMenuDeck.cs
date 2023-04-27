@@ -18,9 +18,9 @@ public class ButtonMenuDeck : MonoBehaviour
         {
             for (int i = 0; i < cardData.DeckType.Count; i++)
             {
-                if(cardData.DeckType[i].number == NumeroDeck)
+                if(cardData.DeckType[i].deckNumber == NumeroDeck)
                 {
-                    cardData.DeckType[i].onoffd = true; 
+                    cardData.DeckType[i].onoff = true; 
                 }
             }
 
@@ -32,9 +32,9 @@ public class ButtonMenuDeck : MonoBehaviour
         {
             for (int i = 0; i < cardData.DeckType.Count; i++)
             {
-                if(cardData.DeckType[i].number == NumeroDeck)
+                if(cardData.DeckType[i].deckNumber == NumeroDeck)
                 {
-                    cardData.DeckType[i].onoffd = false; 
+                    cardData.DeckType[i].onoff = false; 
                 }
             }
 

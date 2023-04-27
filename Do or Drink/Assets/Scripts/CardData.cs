@@ -29,6 +29,7 @@ using UnityEngine;
     
     
     public int deckNumber;
+    public string deckName;
     public bool onoff;
     public bool selectable;
     public List<CardType> CardType = new List<CardType>();

@@ -1401,10 +1401,10 @@ RectTransform:
   m_Father: {fileID: 972816280}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2039.4651, y: -475}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &280333168
 GameObject:
@@ -1981,10 +1981,10 @@ RectTransform:
   m_Father: {fileID: 972816280}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1239.4651, y: -100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &391437603
 GameObject:
@@ -2979,10 +2979,10 @@ RectTransform:
   m_Father: {fileID: 972816280}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2839.465, y: -100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &698446062
 GameObject:
@@ -3556,10 +3556,10 @@ RectTransform:
   m_Father: {fileID: 972816280}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 439.4651, y: -475}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &783864084
 GameObject:
@@ -5073,10 +5073,10 @@ RectTransform:
   m_Father: {fileID: 972816280}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2039.4651, y: -100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &985682191
 GameObject:
@@ -5710,7 +5710,7 @@ MonoBehaviour:
   DeckType:
   - deckNumber: 0
     deckName: Icebrakers
-    timeSeconds: 0
+    timeSeconds: 300
     onoff: 0
     cor: {r: 0.12941177, g: 0.6313726, b: 0.47450984, a: 1}
     CardType:
@@ -5722,7 +5722,7 @@ MonoBehaviour:
       cardContentTop: a
   - deckNumber: 0
     deckName: Love Connection
-    timeSeconds: 5
+    timeSeconds: 300
     onoff: 0
     cor: {r: 0.7176471, g: 0.34117648, b: 0.6784314, a: 1}
     CardType:
@@ -5731,7 +5731,7 @@ MonoBehaviour:
       cardContentTop: a
   - deckNumber: 0
     deckName: Steamy Secrets
-    timeSeconds: 5
+    timeSeconds: 300
     onoff: 0
     cor: {r: 0.8117648, g: 0.1254902, b: 0.20392159, a: 1}
     CardType:
@@ -5740,7 +5740,7 @@ MonoBehaviour:
       cardContentTop: a
   - deckNumber: 0
     deckName: Wicked Whispers
-    timeSeconds: 5
+    timeSeconds: 300
     onoff: 0
     cor: {r: 0.43529415, g: 0.24705884, b: 0.7176471, a: 1}
     CardType:
@@ -5749,7 +5749,7 @@ MonoBehaviour:
       cardContentTop: a
   - deckNumber: 0
     deckName: Geek Galaxy
-    timeSeconds: 5
+    timeSeconds: 300
     onoff: 0
     cor: {r: 0.17254902, g: 0.33333334, b: 0.8117648, a: 1}
     CardType:
@@ -5758,7 +5758,7 @@ MonoBehaviour:
       cardContentTop: a
   - deckNumber: 0
     deckName: Cinematic Showdown
-    timeSeconds: 5
+    timeSeconds: 300
     onoff: 0
     cor: {r: 0.34117648, g: 0.27058825, b: 0.23137257, a: 1}
     CardType:
@@ -5767,7 +5767,7 @@ MonoBehaviour:
       cardContentTop: a
   - deckNumber: 0
     deckName: Rhythimic Riddles
-    timeSeconds: 5
+    timeSeconds: 300
     onoff: 0
     cor: {r: 0.27058825, g: 0.8980393, b: 0.2392157, a: 1}
     CardType:
@@ -7784,10 +7784,10 @@ RectTransform:
   m_Father: {fileID: 972816280}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 439.4651, y: -100}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1449635278
 GameObject:
@@ -10885,10 +10885,10 @@ RectTransform:
   m_Father: {fileID: 972816280}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1239.4651, y: -475}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1975450451
 GameObject:

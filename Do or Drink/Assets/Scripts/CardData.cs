@@ -7,8 +7,9 @@ using UnityEngine;
 
     public List<DeckType> DeckType = new List<DeckType>();
 
-    private void Awake()
+    private void Start()
     {
+
         // Define o número de cada CardType na lista
         for (int i = 0; i < DeckType.Count; i++)
         {
@@ -19,7 +20,51 @@ using UnityEngine;
                 DeckType[i].CardType[f].cardNumber = f + 1;
             }
         }
+
+        LoadData();
     }
+
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.S)) {
+            SaveData();
+        }
+    }
+    
+    private void OnApplicationQuit() {
+        SaveData();
+    }
+
+    private void SaveData() 
+    {
+        Debug.Log("Saved");
+        // Salva o tempo de cada deck na lista
+        
+        foreach (DeckType deck in DeckType) 
+        {
+            string key = "deck_" + deck.deckNumber + "_timeSeconds";
+            PlayerPrefs.SetInt(key, Mathf.RoundToInt(deck.timeSeconds));
+            Debug.Log("Saved key: " + key + ", value: " + deck.timeSeconds);
+        }
+    }
+
+    private void LoadData()
+    {
+
+    // Carrega o tempo de cada deck da lista
+    foreach (DeckType deck in DeckType)
+    {
+        string key = "deck_" + deck.deckNumber + "_timeSeconds";
+        if (PlayerPrefs.HasKey(key))
+        {
+            deck.timeSeconds = PlayerPrefs.GetInt(key, 0);
+            Debug.Log("Loaded key: " + key + ", value: " + deck.timeSeconds);
+        }
+        else
+        {
+            Debug.Log("Key not found: " + key);
+        }
+    }
+}
 
     }
 

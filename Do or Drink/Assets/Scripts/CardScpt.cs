@@ -25,23 +25,23 @@ public class CardScpt : MonoBehaviour
  private int ndodeck;
  private int ndacarta;
  
-    void OnEnable()
+    private void OnEnable()
     {
         PlayManager.novaCarta += DestroySelf;
     }
 
 
-    void OnDisable()
+    private void OnDisable()
     {
         PlayManager.novaCarta -= DestroySelf;
     }
 
-    void Start()
+    private void Start()
     {
         GenerateDeck();
     }
 
-    void GenerateDeck()
+    private void GenerateDeck()
     {
         ndodeck = Random.Range(0, cardData.DeckType.Count);
 
@@ -56,7 +56,7 @@ public class CardScpt : MonoBehaviour
    
     }
     
-    void ChooseCard()
+    private void ChooseCard()
     {
 
        ndacarta = Random.Range(0, cardData.DeckType[ndodeck].CardType.Count);
@@ -65,14 +65,15 @@ public class CardScpt : MonoBehaviour
 
     }
 
-     void MakeTheCard()
+    private void MakeTheCard()
     {
 
         Titulo.text = "Do or Drink";
         SubTitulo.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardContentTop;
         NomeDeck.text = cardData.DeckType[ndodeck].deckName;
         NumeroDeck.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardNumber + "/" + cardData.DeckType[ndodeck].CardType.Count;
-        Conteudo.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardContent;    
+        Conteudo.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardContent;   
+        GetComponentInChildren<Transform>().Find("WhiteBK").GetComponent<Image>().color = cardData.DeckType[ndodeck].cor;
 
     }
 

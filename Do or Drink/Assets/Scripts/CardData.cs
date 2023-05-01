@@ -27,12 +27,11 @@ using UnityEngine;
     public class DeckType
     {
     
-    
     public int deckNumber;
     public string deckName;
-    public int timeSeconds;
+    public float timeSeconds;
     public bool onoff;
-    public bool selectable;
+    public Color cor;
     public List<CardType> CardType = new List<CardType>();
 
     }  

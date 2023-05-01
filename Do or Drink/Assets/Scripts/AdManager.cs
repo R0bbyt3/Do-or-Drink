@@ -1,19 +1,34 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Advertisements;
+using System.Collections.Generic;
  
 public class AdManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowListener
 {
-    [SerializeField] Button _showAdButton;
+    [SerializeField]
+    private List<ADB> _showAdButtons = new List<ADB>();
     string _adUnitId = "Rewarded_Android";
  
+    [SerializeField]
+    CardData cardData;
+    [SerializeField]
+    TimeAdManager timeAdManager;
+
+    private int deckA;
+
+    public bool isLoaded;
+
     void Awake()
     {   
-        _showAdButton.interactable = false;
+        for (int j = 0; j < _showAdButtons.Count; j++)
+        {
+            _showAdButtons[j].button.interactable = false;
+        }
     }
 
     private void Start()
     {
+        Advertisement.Load(_adUnitId, this);
         Advertisement.Initialize("5260291");
         LoadAd();
         OnUnityAdsAdLoaded(_adUnitId);
@@ -36,29 +51,60 @@ public class AdManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowList
         if (adUnitId.Equals(_adUnitId))
         {
             // Configure the button to call the ShowAd() method when clicked:
-            _showAdButton.onClick.AddListener(ShowAd);
+
             // Enable the button for users to click:
-            _showAdButton.interactable = true;
+
+            for (int j = 0; j < _showAdButtons.Count; j++)
+            {
+                _showAdButtons[j].button.interactable = true;
+            }
+
+            isLoaded = true;
         }
     }
  
     // Implement a method to execute when the user clicks the button:
-    public void ShowAd()
+    public void ShowAd(int deck)
     {
+        deckA = deck;
+
         // Disable the button:
-        _showAdButton.interactable = false;
+        for (int j = 0; j < _showAdButtons.Count; j++)
+        {
+            _showAdButtons[j].button.interactable = false;
+        }
+      
         // Then show the ad:
         Advertisement.Show(_adUnitId, this);
+
+        Debug.Log("Add show");
+
+        isLoaded = false;
     }
  
     // Implement the Show Listener's OnUnityAdsShowComplete callback method to determine if the user gets a reward:
     public void OnUnityAdsShowComplete(string adUnitId, UnityAdsShowCompletionState showCompletionState)
     {
+        
         if (adUnitId.Equals(_adUnitId) && showCompletionState.Equals(UnityAdsShowCompletionState.COMPLETED))
         {
-            
-            Debug.Log("Unity Ads Rewarded Ad Completed");
             // Grant a reward.
+            Debug.Log("Unity Ads Rewarded Ad Completed");
+    
+            for (int j = 0; j < cardData.DeckType.Count; j++)
+            {
+                if(cardData.DeckType[j].deckNumber == deckA)
+                {
+                    cardData.DeckType[j].timeSeconds += 900;
+                    timeAdManager.UpdateVisuals();
+
+                    if(timeAdManager.gameOn == true)
+                    {
+                        cardData.DeckType[j].onoff = true;  
+                        timeAdManager.decksActive();
+                    }
+                }
+            }
 
             // Load another ad:
             Advertisement.Load(_adUnitId, this);
@@ -84,6 +130,21 @@ public class AdManager : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowList
     void OnDestroy()
     {
         // Clean up the button listeners:
-        _showAdButton.onClick.RemoveAllListeners();
+        for (int j = 0; j < _showAdButtons.Count; j++)
+        {
+            _showAdButtons[j].button.onClick.RemoveAllListeners();
+        }
+
     }
+
+    [System.Serializable]
+    public class ADB
+    {
+    
+    public Button button;
+    public int deck;
+
+    }  
+
+
 }

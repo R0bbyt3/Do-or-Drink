@@ -25,6 +25,9 @@ public class PlayManager : MonoBehaviour
     [SerializeField]
     private TimeAdManager timeAdManager;
 
+    [SerializeField]
+    private List<ButtonMenuDeck> buttonDeck = new List<ButtonMenuDeck>();
+
     public delegate void CartaCriada();
     public static event CartaCriada novaCarta;
 
@@ -55,6 +58,12 @@ public class PlayManager : MonoBehaviour
 
         InGame.SetActive(false);
         NotInGame.SetActive(true);
+
+        for (int i = 0; i < buttonDeck.Count; i++)
+        {
+            buttonDeck[i].deactivateButton(i+1);
+        } 
+
         timeAdManager.gameOn = false;
         timeAdManager.UpdateVisuals();
 

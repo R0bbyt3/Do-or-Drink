@@ -16,7 +16,17 @@ public class ButtonMenuDeck : MonoBehaviour
     {
         if(isactive == false)
         {
-            for (int i = 0; i < cardData.DeckType.Count; i++)
+            activateButton(NumeroDeck);
+        }else
+        {
+            deactivateButton(NumeroDeck);
+        }
+
+    }
+
+    public void activateButton(int NumeroDeck)
+    {
+        for (int i = 0; i < cardData.DeckType.Count; i++)
             {
                 if(cardData.DeckType[i].deckNumber == NumeroDeck)
                 {
@@ -28,9 +38,12 @@ public class ButtonMenuDeck : MonoBehaviour
             isactive = true;
 
             playInfo.UpdateInfo();
-        }else
-        {
-            for (int i = 0; i < cardData.DeckType.Count; i++)
+
+    }
+
+    public void deactivateButton(int NumeroDeck)
+    {
+        for (int i = 0; i < cardData.DeckType.Count; i++)
             {
                 if(cardData.DeckType[i].deckNumber == NumeroDeck)
                 {
@@ -42,7 +55,5 @@ public class ButtonMenuDeck : MonoBehaviour
             isactive = false;
 
             playInfo.UpdateInfo();
-        }
-
     }
 }

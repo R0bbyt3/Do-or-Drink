@@ -58,6 +58,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* iOSStoreBindings_SetApplicationUsername_m12
 IL2CPP_EXTERN_C const RuntimeMethod* iOSStoreBindings_SetStorePromotionOrder_m94F0280669837961CDD0F2766F3E10510049F7E7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* iOSStoreBindings_SetStorePromotionVisibility_m066EC9CBAF8C81FF2DDCAD1078768F1B226213BD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* iOSStoreBindings_SetUnityPurchasingCallback_m59F7F0F591009E14980A9CEF2D4AB5B02C103DCD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* iOSStoreBindings_get_appReceiptModificationDate_m33011EC18B76017312CF5A0D9BD50EC620265263_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* iOSStoreBindings_get_appReceipt_m8A85115509BFBE88F48F5D55A65546AF13D970B2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* iOSStoreBindings_get_canMakePayments_m4F4E8DD4A065350D93D00BC130DF7218245FE2B0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* iOSStoreBindings_get_simulateAskToBuy_mBFB64C18924816E968C87931593D28CDEF68529D_RuntimeMethod_var;
@@ -129,6 +130,13 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString_5;
 	// System.String System.Boolean::FalseString
 	String_t* ___FalseString_6;
+};
+
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
 };
 
 // System.IntPtr
@@ -455,6 +463,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* iOSStoreBindings_get_appReceipt_m8A
 		NullCheck(L_0);
 		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_get_appReceipt_m8A85115509BFBE88F48F5D55A65546AF13D970B2_RuntimeMethod_var)));
+	}
+}
+// System.Double UnityEngine.Purchasing.iOSStoreBindings::get_appReceiptModificationDate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double iOSStoreBindings_get_appReceiptModificationDate_m33011EC18B76017312CF5A0D9BD50EC620265263 (iOSStoreBindings_tDE97C3D8BF1A4E4E04A582AB778E727D39BD0A8F* __this, const RuntimeMethod* method) 
+{
+	{
+		// public double appReceiptModificationDate => throw new NotImplementedException();
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&iOSStoreBindings_get_appReceiptModificationDate_m33011EC18B76017312CF5A0D9BD50EC620265263_RuntimeMethod_var)));
 	}
 }
 // System.Boolean UnityEngine.Purchasing.iOSStoreBindings::get_canMakePayments()

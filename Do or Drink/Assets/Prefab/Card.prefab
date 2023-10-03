@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -171.5, y: -361.73}
-  m_SizeDelta: {x: 193.019, y: 36.025}
+  m_AnchoredPosition: {x: -193.60701, y: -361.73}
+  m_SizeDelta: {x: 148.805, y: 36.025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2316525838779548871
 CanvasRenderer:
@@ -381,7 +381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.27523, y: 298.2}
+  m_AnchoredPosition: {x: 0.27523, y: 311}
   m_SizeDelta: {x: 496.22, y: 74.455}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2316525839856757805
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Truth or Dare
+  m_text: do or drink
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d89e08fc18d9a14393a35549897491f, type: 2}
   m_sharedMaterial: {fileID: 1121325266826722312, guid: 4d89e08fc18d9a14393a35549897491f, type: 2}
@@ -439,8 +439,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65
-  m_fontSizeBase: 65
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Truth
+  m_text: Individual
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d89e08fc18d9a14393a35549897491f, type: 2}
   m_sharedMaterial: {fileID: 1121325266826722312, guid: 4d89e08fc18d9a14393a35549897491f, type: 2}

@@ -26,12 +26,12 @@ public class TimeUpWindow : MonoBehaviour
     public void ShowingAd()
     {
         adManager.ShowAd(cardData.DeckType[deckIndex].deckNumber);
-        timeUpManager.isActive = false;
         Destroy(gameObject);
     }
 
     public void DestroySelf()
     {
+        timeUpManager.isActive = false;
         Destroy(gameObject);
     }
 }

@@ -68,6 +68,13 @@ using UnityEngine;
 
     }
 
+    public enum CardContentTop
+    {
+        Individual,
+        Group,
+        Rule
+    }
+
     [System.Serializable]
     public class DeckType
     {
@@ -87,7 +94,7 @@ using UnityEngine;
 
     public int cardNumber;
     public string cardContent;
-    public string cardContentTop;
+    public CardContentTop cardContentTop;
 
 
     }  

@@ -195,6 +195,8 @@ struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
 // UnityEngine.UI.Selectable
 struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+// ShopBut
+struct ShopBut_t225A208F28AD01AE227FE8B7B331F09573C01CF8;
 // UnityEngine.Sprite
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
 // System.String
@@ -231,6 +233,8 @@ struct TimeUpWindow_tEC6A8F514645522E964A2978CF2FD0F21070751F;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 // UnityEngine.Events.UnityAction
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
 // UnityEngine.Events.UnityEventBase
 struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8;
 // UnityEngine.UI.VertexHelper
@@ -261,6 +265,7 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAdsLoadError_tB6550E28188DE4BB11BDA67CC987095C6B10575A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAdsShowCompletionState_tB7187D3727AD4D55E87A88A273F377A62CBC91FD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAdsShowError_t1CD1E4BAEEDB40B5D7B7CD76EB96F27A61909F91_il2cpp_TypeInfo_var;
@@ -321,6 +326,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mAD1EF49CA3EEC26C6D701285F5
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mFBEDD49E96E8CB6493ADAF44E0AD265E6CFC64ED_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ShopBut_BotaoClickado_m7B6C4F06236814DD2EABBC9CB2AEEF7966FF9C8B_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -1472,6 +1478,11 @@ struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t
 {
 };
 
+// UnityEngine.Events.UnityAction
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7  : public MulticastDelegate_t
+{
+};
+
 // TMPro.WordWrapState
 struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A 
 {
@@ -1890,6 +1901,17 @@ struct PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588_StaticFields
 {
 	// PlayManager/CartaCriada PlayManager::novaCarta
 	CartaCriada_t3A123505AC218E23145D9F3A8DF0A39DA9E2C95A* ___novaCarta_11;
+};
+
+// ShopBut
+struct ShopBut_t225A208F28AD01AE227FE8B7B331F09573C01CF8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject ShopBut::shop
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___shop_4;
+	// UnityEngine.UI.Button ShopBut::button
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___button_5;
+	// System.Boolean ShopBut::isActive
+	bool ___isActive_6;
 };
 
 // TimeAdManager
@@ -3063,6 +3085,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchoredPosition3D_m21
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CartaCriada_Invoke_m9A78CFEAF17A3A9DEEFB0FA3C1B05D4D177B44C3_inline (CartaCriada_t3A123505AC218E23145D9F3A8DF0A39DA9E2C95A* __this, const RuntimeMethod* method) ;
 // System.Void PlayManager::DesativarJogo()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayManager_DesativarJogo_mA21943459614236B74C60B255B382ACFAF260F49 (PlayManager_t2470BB88EEAFDBD1E0950039FF547015A6054588* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Count()
 inline int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
 {
@@ -5414,6 +5440,80 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CartaCriada_BeginInvoke_mAB69A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CartaCriada_EndInvoke_m430C20E143DCA1BBC56CBB1A00F74D4E61108FDC (CartaCriada_t3A123505AC218E23145D9F3A8DF0A39DA9E2C95A* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void ShopBut::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShopBut_Start_mB1D5123ABBE1928116CC6747130C1869CE0F0047 (ShopBut_t225A208F28AD01AE227FE8B7B331F09573C01CF8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShopBut_BotaoClickado_m7B6C4F06236814DD2EABBC9CB2AEEF7966FF9C8B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// button.onClick.AddListener(BotaoClickado);
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___button_5;
+		NullCheck(L_0);
+		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_1;
+		L_1 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_0, NULL);
+		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_2 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_2, __this, (intptr_t)((void*)ShopBut_BotaoClickado_m7B6C4F06236814DD2EABBC9CB2AEEF7966FF9C8B_RuntimeMethod_var), NULL);
+		NullCheck(L_1);
+		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_1, L_2, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ShopBut::BotaoClickado()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShopBut_BotaoClickado_m7B6C4F06236814DD2EABBC9CB2AEEF7966FF9C8B (ShopBut_t225A208F28AD01AE227FE8B7B331F09573C01CF8* __this, const RuntimeMethod* method) 
+{
+	{
+		// if(isActive)
+		bool L_0 = __this->___isActive_6;
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		// shop.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___shop_4;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		// isActive = false;
+		__this->___isActive_6 = (bool)0;
+		return;
+	}
+
+IL_001c:
+	{
+		// shop.SetActive(true);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___shop_4;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+		// isActive = true;
+		__this->___isActive_6 = (bool)1;
+		// }
+		return;
+	}
+}
+// System.Void ShopBut::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShopBut__ctor_mE2F75FD51CBCC8CDCE902D8F39BB17AD0326EF90 (ShopBut_t225A208F28AD01AE227FE8B7B331F09573C01CF8* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

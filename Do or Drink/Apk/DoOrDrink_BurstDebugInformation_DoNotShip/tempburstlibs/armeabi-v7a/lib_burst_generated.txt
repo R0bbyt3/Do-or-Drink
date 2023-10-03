@@ -134,7 +134,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Giova\OneDrive\Documentos\GitHub\Do-or-Drink\Do or Drink\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
 --root-assembly=C:\Users\Giova\OneDrive\Documentos\GitHub\Do-or-Drink\Do or Drink\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.Stores.dll
 --root-assembly=C:\Users\Giova\OneDrive\Documentos\GitHub\Do-or-Drink\Do or Drink\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
---root-assembly=C:\Users\Giova\OneDrive\Documentos\GitHub\Do-or-Drink\Do or Drink\Temp\StagingArea\Data\Managed\Unity.Services.Analytics.dll
 --root-assembly=C:\Users\Giova\OneDrive\Documentos\GitHub\Do-or-Drink\Do or Drink\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
 --root-assembly=C:\Users\Giova\OneDrive\Documentos\GitHub\Do-or-Drink\Do or Drink\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
 --root-assembly=C:\Users\Giova\OneDrive\Documentos\GitHub\Do-or-Drink\Do or Drink\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll

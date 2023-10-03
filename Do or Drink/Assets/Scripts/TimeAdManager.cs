@@ -14,6 +14,7 @@ public class TimeAdManager : MonoBehaviour
 
     [SerializeField]
     private GameObject[] tempoDisplayMenu;
+
     [SerializeField]
     private GameObject[] gameBlocker;
 
@@ -74,14 +75,13 @@ public class TimeAdManager : MonoBehaviour
                     int minutes = Mathf.FloorToInt((cardData.DeckType[j].timeSeconds % 3600) / 60);
                     int seconds = Mathf.FloorToInt(cardData.DeckType[j].timeSeconds % 60);  
 
-                    gameBlocker[j - 1].SetActive(false);
                     tempoDisplayMenu[j - 1].SetActive(true);
-
-                    tempoDisplayMenu[j - 1].GetComponent<TextMeshProUGUI>().text = string.Format("Remaining Time: " + "{0:00}:{1:00}:{2:00}", hours, minutes, seconds);
+                    tempoDisplayMenu[j - 1].GetComponent<TextMeshProUGUI>().text = string.Format( "Remaining Time: " + "{0:00}:{1:00}:{2:00}", hours, minutes, seconds); 
+                    gameBlocker[j - 1].SetActive(false);
                 }else
                 {
-                    gameBlocker[j - 1].SetActive(true);
                     tempoDisplayMenu[j - 1].SetActive(false);
+                    gameBlocker[j - 1].SetActive(true);
                 }
             }
         }

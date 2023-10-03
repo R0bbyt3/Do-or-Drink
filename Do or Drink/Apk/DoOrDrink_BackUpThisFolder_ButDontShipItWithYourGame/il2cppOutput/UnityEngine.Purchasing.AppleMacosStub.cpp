@@ -58,6 +58,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* OSXStoreBindings_SetApplicationUsername_m9D
 IL2CPP_EXTERN_C const RuntimeMethod* OSXStoreBindings_SetStorePromotionOrder_m3C97DE690593919ABE3CA59FBD30EEB9F4922633_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OSXStoreBindings_SetStorePromotionVisibility_mDED41A061D19EB4B0CDA429E550716247C7D422E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OSXStoreBindings_SetUnityPurchasingCallback_mBB8CB88EA7308F3B7B9C82E19DF22A1D33E2ABC5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OSXStoreBindings_get_appReceiptModificationDate_m0DBAA910000990A3F3EF43F04C783E7BC2B510F4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OSXStoreBindings_get_appReceipt_mECA7C48A499AA98C8EAFCFC0D420AAB157508DBE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OSXStoreBindings_get_canMakePayments_mEB48EBA32F72DFB585C9910969ED5A55D8A3C622_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OSXStoreBindings_get_simulateAskToBuy_m0CD09D81A173C83E2AF59CF2B97CFC275AA6F358_RuntimeMethod_var;
@@ -129,6 +130,13 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString_5;
 	// System.String System.Boolean::FalseString
 	String_t* ___FalseString_6;
+};
+
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
 };
 
 // System.IntPtr
@@ -455,6 +463,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OSXStoreBindings_get_appReceipt_mEC
 		NullCheck(L_0);
 		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OSXStoreBindings_get_appReceipt_mECA7C48A499AA98C8EAFCFC0D420AAB157508DBE_RuntimeMethod_var)));
+	}
+}
+// System.Double UnityEngine.Purchasing.OSXStoreBindings::get_appReceiptModificationDate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double OSXStoreBindings_get_appReceiptModificationDate_m0DBAA910000990A3F3EF43F04C783E7BC2B510F4 (OSXStoreBindings_t07AE7B9ED38F91E24390B891BF76B405FD3163CD* __this, const RuntimeMethod* method) 
+{
+	{
+		// public double appReceiptModificationDate => throw new NotImplementedException();
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OSXStoreBindings_get_appReceiptModificationDate_m0DBAA910000990A3F3EF43F04C783E7BC2B510F4_RuntimeMethod_var)));
 	}
 }
 // System.Boolean UnityEngine.Purchasing.OSXStoreBindings::get_canMakePayments()

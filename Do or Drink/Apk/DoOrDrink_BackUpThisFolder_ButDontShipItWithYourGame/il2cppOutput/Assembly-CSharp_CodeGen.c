@@ -104,31 +104,37 @@ extern void CartaCriada_Invoke_m9A78CFEAF17A3A9DEEFB0FA3C1B05D4D177B44C3 (void);
 extern void CartaCriada_BeginInvoke_mAB69AD8A91D9153856BA4FE88C42E687A72C9668 (void);
 // 0x0000002E System.Void PlayManager/CartaCriada::EndInvoke(System.IAsyncResult)
 extern void CartaCriada_EndInvoke_m430C20E143DCA1BBC56CBB1A00F74D4E61108FDC (void);
-// 0x0000002F System.Void TimeAdManager::Start()
+// 0x0000002F System.Void ShopBut::Start()
+extern void ShopBut_Start_mB1D5123ABBE1928116CC6747130C1869CE0F0047 (void);
+// 0x00000030 System.Void ShopBut::BotaoClickado()
+extern void ShopBut_BotaoClickado_m7B6C4F06236814DD2EABBC9CB2AEEF7966FF9C8B (void);
+// 0x00000031 System.Void ShopBut::.ctor()
+extern void ShopBut__ctor_mE2F75FD51CBCC8CDCE902D8F39BB17AD0326EF90 (void);
+// 0x00000032 System.Void TimeAdManager::Start()
 extern void TimeAdManager_Start_m4757DD120061727FD8951CD4D05C56B117F36936 (void);
-// 0x00000030 System.Void TimeAdManager::decksActive()
+// 0x00000033 System.Void TimeAdManager::decksActive()
 extern void TimeAdManager_decksActive_m7411B74BCC4CB355CCE844F267A8DDEA55607580 (void);
-// 0x00000031 System.Void TimeAdManager::Update()
+// 0x00000034 System.Void TimeAdManager::Update()
 extern void TimeAdManager_Update_m8B7F5D5018FD29692CA95FB8966D573327E740B7 (void);
-// 0x00000032 System.Void TimeAdManager::UpdateVisuals()
+// 0x00000035 System.Void TimeAdManager::UpdateVisuals()
 extern void TimeAdManager_UpdateVisuals_m9881AAA28202517687E0FF82501C7272D0411504 (void);
-// 0x00000033 System.Void TimeAdManager::.ctor()
+// 0x00000036 System.Void TimeAdManager::.ctor()
 extern void TimeAdManager__ctor_mF2EA762997660D897954907BF113B0DD50198F67 (void);
-// 0x00000034 System.Void TimeUpManager::Update()
+// 0x00000037 System.Void TimeUpManager::Update()
 extern void TimeUpManager_Update_m954BD46A185EB56B0D3E3F4CDFDE128C6D3508D3 (void);
-// 0x00000035 System.Void TimeUpManager::openWindow(System.Int32)
+// 0x00000038 System.Void TimeUpManager::openWindow(System.Int32)
 extern void TimeUpManager_openWindow_mA5A2A65BCE4F5794576D8786420EEC3E8B754987 (void);
-// 0x00000036 System.Void TimeUpManager::.ctor()
+// 0x00000039 System.Void TimeUpManager::.ctor()
 extern void TimeUpManager__ctor_mB126B9A559955AED82DD6B05650AB4EA7638FC9A (void);
-// 0x00000037 System.Void TimeUpWindow::Update()
+// 0x0000003A System.Void TimeUpWindow::Update()
 extern void TimeUpWindow_Update_m7E69214C75195A0E16DF7661AF03CB72D5C99585 (void);
-// 0x00000038 System.Void TimeUpWindow::ShowingAd()
+// 0x0000003B System.Void TimeUpWindow::ShowingAd()
 extern void TimeUpWindow_ShowingAd_mCA9BAC9AD5C3EBCB239859F7100FD7D0EA864E26 (void);
-// 0x00000039 System.Void TimeUpWindow::DestroySelf()
+// 0x0000003C System.Void TimeUpWindow::DestroySelf()
 extern void TimeUpWindow_DestroySelf_m8A75BCAF652034554B410C402578C569052FF063 (void);
-// 0x0000003A System.Void TimeUpWindow::.ctor()
+// 0x0000003D System.Void TimeUpWindow::.ctor()
 extern void TimeUpWindow__ctor_mBDB228096E2D6B3DAFBA6E50A554E7A2166A34CF (void);
-static Il2CppMethodPointer s_methodPointers[58] = 
+static Il2CppMethodPointer s_methodPointers[61] = 
 {
 	AdManager_Awake_m43FB07FA2AFD8129346852990F3C6BA0825E6A35,
 	AdManager_Start_m4E5948C8F51FF51E0323BADFECF66102FCDDD862,
@@ -176,6 +182,9 @@ static Il2CppMethodPointer s_methodPointers[58] =
 	CartaCriada_Invoke_m9A78CFEAF17A3A9DEEFB0FA3C1B05D4D177B44C3,
 	CartaCriada_BeginInvoke_mAB69AD8A91D9153856BA4FE88C42E687A72C9668,
 	CartaCriada_EndInvoke_m430C20E143DCA1BBC56CBB1A00F74D4E61108FDC,
+	ShopBut_Start_mB1D5123ABBE1928116CC6747130C1869CE0F0047,
+	ShopBut_BotaoClickado_m7B6C4F06236814DD2EABBC9CB2AEEF7966FF9C8B,
+	ShopBut__ctor_mE2F75FD51CBCC8CDCE902D8F39BB17AD0326EF90,
 	TimeAdManager_Start_m4757DD120061727FD8951CD4D05C56B117F36936,
 	TimeAdManager_decksActive_m7411B74BCC4CB355CCE844F267A8DDEA55607580,
 	TimeAdManager_Update_m8B7F5D5018FD29692CA95FB8966D573327E740B7,
@@ -189,72 +198,75 @@ static Il2CppMethodPointer s_methodPointers[58] =
 	TimeUpWindow_DestroySelf_m8A75BCAF652034554B410C402578C569052FF063,
 	TimeUpWindow__ctor_mBDB228096E2D6B3DAFBA6E50A554E7A2166A34CF,
 };
-static const int32_t s_InvokerIndices[58] = 
+static const int32_t s_InvokerIndices[61] = 
 {
-	5029,
-	5029,
-	5029,
-	4082,
-	4060,
-	2335,
-	1302,
-	1302,
-	4082,
-	4082,
-	5029,
-	5029,
-	5029,
-	4060,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	7394,
-	7394,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	2337,
-	5029,
-	1862,
-	4082,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
-	4060,
-	5029,
-	5029,
-	5029,
-	5029,
-	5029,
+	4935,
+	4935,
+	4935,
+	4013,
+	3992,
+	2286,
+	1276,
+	1276,
+	4013,
+	4013,
+	4935,
+	4935,
+	4935,
+	3992,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	7280,
+	7280,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	2288,
+	4935,
+	1820,
+	4013,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
+	3992,
+	4935,
+	4935,
+	4935,
+	4935,
+	4935,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	58,
+	61,
 	s_methodPointers,
 	0,
 	NULL,

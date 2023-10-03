@@ -69,7 +69,8 @@ public class CardScpt : MonoBehaviour
     {
 
         Titulo.text = "Do or Drink";
-        SubTitulo.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardContentTop;
+        string type = GetType(cardData.DeckType[ndodeck].CardType[ndacarta].cardContentTop);
+        SubTitulo.text = type;
         NomeDeck.text = cardData.DeckType[ndodeck].deckName;
         NumeroDeck.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardNumber + "/" + cardData.DeckType[ndodeck].CardType.Count;
         Conteudo.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardContent;   
@@ -87,6 +88,21 @@ public class CardScpt : MonoBehaviour
     public void Delete()
     {
         Destroy(this.gameObject);
+    }
+
+    private string GetType(CardContentTop cardContentTop)
+    {
+        switch (cardContentTop)
+        {
+            case CardContentTop.Individual:
+                return "Individual";
+            case CardContentTop.Group:
+                return "Group";
+            case CardContentTop.Rule:
+                return "Rule";
+            default:
+                return "Individual"; 
+        }
     }
 
 }

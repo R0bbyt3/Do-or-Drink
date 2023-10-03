@@ -186,9 +186,7 @@ UnityEngine.Application::get_genuineCheckAvailable
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
-UnityEngine.Application::get_buildGUID
 UnityEngine.Application::get_cloudProjectId
-UnityEngine.Application::get_identifier
 UnityEngine.Application::get_persistentDataPath
 UnityEngine.Application::get_productName
 UnityEngine.Application::get_streamingAssetsPath
@@ -590,7 +588,6 @@ UnityEngine.Networking.UnityWebRequest::InternalSetRequestHeader
 UnityEngine.Networking.UnityWebRequest::SetCustomMethod
 UnityEngine.Networking.UnityWebRequest::SetDownloadHandler
 UnityEngine.Networking.UnityWebRequest::SetMethod
-UnityEngine.Networking.UnityWebRequest::SetTimeoutMsec
 UnityEngine.Networking.UnityWebRequest::SetUploadHandler
 UnityEngine.Networking.UnityWebRequest::SetUrl
 UnityEngine.Networking.UnityWebRequest::BeginWebRequest
@@ -728,15 +725,10 @@ UnityEngine.SystemInfo::IsFormatSupported
 UnityEngine.SystemInfo::SupportsTextureFormatNative
 UnityEngine.SystemInfo::GetMaxRenderTextureSize
 UnityEngine.SystemInfo::GetMaxTextureSize
-UnityEngine.SystemInfo::GetPhysicalMemoryMB
-UnityEngine.SystemInfo::GetProcessorCount
-UnityEngine.SystemInfo::GetBatteryLevel
 UnityEngine.SystemInfo::GetDeviceModel
 UnityEngine.SystemInfo::GetDeviceName
 UnityEngine.SystemInfo::GetDeviceUniqueIdentifier
-UnityEngine.SystemInfo::GetGraphicsDeviceName
 UnityEngine.SystemInfo::GetOperatingSystem
-UnityEngine.SystemInfo::GetProcessorType
 UnityEngine.SystemInfo::GetDeviceType
 UnityEngine.SystemInfo::GetCompatibleFormat
 UnityEngine.SystemInfo::GetGraphicsFormat

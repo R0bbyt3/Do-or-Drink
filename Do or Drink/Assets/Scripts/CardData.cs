@@ -94,6 +94,7 @@ using UnityEngine;
 
     public int cardNumber;
     public string cardContent;
+    public string cardContentBR;
     public CardContentTop cardContentTop;
 
 

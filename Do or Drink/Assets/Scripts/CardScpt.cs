@@ -73,7 +73,7 @@ public class CardScpt : MonoBehaviour
         SubTitulo.text = type;
         NomeDeck.text = cardData.DeckType[ndodeck].deckName;
         NumeroDeck.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardNumber + "/" + cardData.DeckType[ndodeck].CardType.Count;
-        Conteudo.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardContent;   
+        Conteudo.text = cardData.DeckType[ndodeck].CardType[ndacarta].cardContentBR;   
         GetComponentInChildren<Transform>().Find("WhiteBK").GetComponent<Image>().color = cardData.DeckType[ndodeck].cor;
 
     }

@@ -1702,43 +1702,3784 @@ MonoBehaviour:
     timeSeconds: 86400
     onoff: 0
     cor: {r: 0.12941177, g: 0.6313726, b: 0.47450984, a: 1}
-    CardType: []
+    CardType:
+    - cardNumber: 0
+      cardContent: Show everyone your last message (on the social network you use
+        the most) or take a drink.
+      cardContentBR: Mostre para todos a sua ultima mensagem (na rede social que
+        mais usa) ou tome um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Smokers take a drink.
+      cardContentBR: Fumantes tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Anyone who considers themselves sober takes two drinks.
+      cardContentBR: "Quem se considera s\xF3brio toma dois goles."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: The other players choose a song and you have to dance to it for
+        30 seconds. Now they are your judges and should evaluate how much you will
+        drink (from 0 to 4 times) according to your performance.
+      cardContentBR: "Os outros jogadores escolhem uma musica e voce tem que dan\xE7ar
+        por 30 segundos. Eles te avaliam e decidem quantos goles voce vai tomar (de
+        0 a 4)."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Leave an object on the floor and everyone has to touch it when
+        you say "go". The last one to touch it takes a drink.
+      cardContentBR: Deixe um objeto no chao e todos tem que tocar nele quando voce
+        disser "vai". O ultimo a tocar toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Anyone who has already left the country takes a drink.
+      cardContentBR: Quem ja saiu do pais toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone says their favorite color. The person with the same favorite
+        color as the player who drew the card takes a drink.
+      cardContentBR: Todos falam sua cor favorita. Quem tiver a mesma cor favorita
+        que o jogador que tirou a carta toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: The player who drew the card chooses a place to live. Whoever
+        chooses the place closest to them takes a drink.
+      cardContentBR: O jogador que tirou a carta escolhe um lugar para morar. Quem
+        escolher o lugar mais proximo toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone says their superpower, the player who drew the card chooses
+        the most unusual one, and that person needs to take a drink.
+      cardContentBR: Todos dizem seu superpoder, o jogador que tirou a carta escolhe
+        o mais incomum e essa pessoa toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone switches names with the person to their right, and every
+        time someone makes a mistake for the next three rounds, they take a drink.
+      cardContentBR: Todos trocam nomes com a pessoa a sua direita, e toda vez que
+        alguem errar nas proximas tres rodadas, toma um gole.
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Describe your dream vacation that is most similar to the player
+        who drew the card and take a drink.
+      cardContentBR: Descreva suas ferias dos sonhos mais parecidas com o jogador
+        que tirou a carta e tome um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone says their favorite food. Whoever has the strangest food,
+        voted on by everyone, takes a drink.
+      cardContentBR: Todos dizem sua comida favorita. Quem tiver a comida mais estranha,
+        votada por todos, toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Whoever has the exotic dream pet most similar to the player who
+        drew the card takes a drink.
+      cardContentBR: "Quem tem o animal de estima\xE7\xE3o exotico dos sonhos mais
+        parecido com o jogador que tirou a carta toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone tells a bad school story, and the one with the worst
+        story takes a drink.
+      cardContentBR: Todos contam uma historia ruim da escola, e o que tiver a pior
+        historia toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone shares their first job. Both the person with the most
+        interesting job and the person who has never worked take a drink.
+      cardContentBR: Todos compartilham seu primeiro emprego. Tanto a pessoa com
+        o emprego mais interessante quanto a pessoa que nunca trabalhou tomam um
+        gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Say your favorite musical artist, the person with the worst taste
+        in music, chosen by the card player, takes a drink.
+      cardContentBR: Diga seu artista musical favorito, a pessoa com o pior gosto
+        musical, escolhida pelo jogador da carta, toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone says their favorite movie or TV show, and the one judged
+        to have the worst taste in media takes two drinks.
+      cardContentBR: "Todos dizem seu filme ou s\xE9rie de TV favoritos, e o que
+        for julgado com o pior gosto em m\xEDdia toma dois goles."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Tell your most embarrassing personal story or take a drink.
+      cardContentBR: "Conte sua hist\xF3ria pessoal mais constrangedora ou tome um
+        gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Search for the name of the person to your right on WhatsApp and
+        let everyone see it or drink.
+      cardContentBR: "Procure o nome da pessoa \xE0 sua direita no WhatsApp e deixe
+        todos verem ou tome um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: 'Share the strangest or funniest nickname you''ve ever been given.
+        The other players vote: if the majority finds it a good nickname, they take
+        a drink, if the majority doesn''t like it, everyone else takes a drink.'
+      cardContentBR: "Compartilhe o apelido mais estranho ou engra\xE7ado que j\xE1
+        recebeu. Os outros jogadores votam: se a maioria achar que \xE9 um bom apelido,
+        eles tomam um gole, se a maioria n\xE3o gostar, todo mundo toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Choose a celebrity to switch bodies with for a day and justify
+        it. All other players will judge if your reasons are good enough, and if
+        they're not, they take a drink once.
+      cardContentBR: "Escolha uma celebridade para trocar de corpo por um dia e justifique.
+        Todos os outros jogadores v\xE3o julgar se seus motivos s\xE3o bons o suficiente
+        e, se n\xE3o forem, eles tomam um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Reveal a hidden talent or take a drink.
+      cardContentBR: Revele um talento escondido ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share an embarrassing fear or take a drink.
+      cardContentBR: Compartilhe um medo constrangedor ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Describe an object in the room without saying what it is. If someone
+        guesses correctly, they take a drink, if no one does, everyone takes a drink.
+      cardContentBR: "Descreva um objeto na sala sem dizer o que \xE9. Se algu\xE9m
+        acertar, toma um gole, se ningu\xE9m acertar, todo mundo toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Creatively compliment each of the players. But be careful! They
+        will be judging your compliments, and if they're not creative enough, you
+        take two drinks.
+      cardContentBR: "Elogie criativamente cada um dos jogadores. Mas cuidado! Eles
+        v\xE3o julgar seus elogios e, se n\xE3o forem criativos o suficiente, voc\xEA
+        toma dois goles."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Choose a player to ask you a personal question or take a drink.
+      cardContentBR: Escolha um jogador para fazer uma pergunta pessoal ou tome um
+        gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Send a message chosen by the grupo to your most recent conversation,
+        or take two drinks.
+      cardContentBR: Envie uma mensagem escolhida pelo grupo para sua conversa mais
+        recente, ou tome dois goles.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: The Voice! Sing a song of your choice, and the rest of the grupo
+        will decide how much you will drink according to your performance (0-4).
+      cardContentBR: "The Voice! Cante uma m\xFAsica de sua escolha, e o resto do
+        grupo decidir\xE1 quantos goles voc\xEA vai tomar de acordo com seu desempenho
+        (0-4)."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Imitate someone (famous or not). If someone guesses who it is,
+        everyone else takes a drink except the person who guessed it correctly, and
+        if no one guesses, the player who drew the card takes a drink.
+      cardContentBR: "Imite algu\xE9m (famoso ou n\xE3o). Se algu\xE9m acertar quem
+        \xE9, todos os outros tomam um gole, exceto a pessoa que acertou, e se ningu\xE9m
+        acertar, o jogador que tirou a carta toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Choose an object or animal and represent it without speaking.
+        If someone guesses correctly, everyone except the person who guessed takes
+        a drink, and if no one guesses, the player who drew the card takes a drink.
+      cardContentBR: "Escolha um objeto ou animal e o represente sem falar. Se algu\xE9m
+        acertar, todo mundo, exceto a pessoa que acertou, toma um gole, e se ningu\xE9m
+        acertar, o jogador que tirou a carta toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Choose a player and do a duet of any song, or both of you take
+        a drink.
+      cardContentBR: "Escolha um jogador e fa\xE7a um dueto de qualquer m\xFAsica,
+        ou ambos tomam um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Describe yourself in three words. If anyone thinks you've left
+        out an important word, they take a drink.
+      cardContentBR: "Descreva-se em tr\xEAs palavras. Se algu\xE9m achar que voc\xEA
+        deixou de fora uma palavra importante, essa pessoa toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Draw something. If someone guesses what it is correctly, everyone
+        except the person who guessed takes a drink, and if no one guesses, the player
+        who drew the card takes a drink.
+      cardContentBR: "Desenhe algo. Se algu\xE9m acertar o que \xE9, todo mundo,
+        exceto quem acertou, toma um gole, e se ningu\xE9m acertar, o jogador que
+        tirou a carta toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Men drink.
+      cardContentBR: Homens tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Women drink.
+      cardContentBR: Mulheres tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Non-binary people drink.
+      cardContentBR: "Pessoas n\xE3o-bin\xE1rias tomam um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone drinks.
+      cardContentBR: Todos tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Take a drink for every bone you\u2019ve broken."
+      cardContentBR: Tome um gole para cada osso que ja quebrou.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: You drink.
+      cardContentBR: Voce toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink for every letter in your name.
+      cardContentBR: Tome um gole para cada letra do seu nome.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Pick a superhero and act like them without talking. First one
+        to guess picks how much you\u2019ll drink (0-4)."
+      cardContentBR: Escolha um super-heroi e aja como ele sem falar. Primeiro a
+        adivinhar escolhe quantos goles voce vai tomar (0-4).
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Start a staring contest with the person in front of you. First
+        one to blink drinks.
+      cardContentBR: Comece um concurso de encarar com a pessoa a sua frente. O primeiro
+        a piscar toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Ask the person on your left a true or false question about yourself.
+        If they get it right, you drink. If they fail, they drink.
+      cardContentBR: Pergunte para a pessoa a sua esquerda uma pergunta verdadeiro
+        ou falso sobre voce. Se acertarem, voce toma um gole. Se errarem, eles tomam.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Play rock-paper-scissors with the person that is two people on
+        the left from you. Loser drinks.
+      cardContentBR: Jogue pedra-papel-tesoura com a pessoa que esta duas pessoas
+        a sua esquerda. Perdedor toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Quote a movie. If no one guesses what movie it is, everyone drinks
+        except for you. If someone gets it right, you drink.
+      cardContentBR: "Cite um filme. Se ninguem adivinhar qual \xE9, todos tomam
+        um gole exceto voce. Se alguem acertar, voce toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Anyone with a job drinks.
+      cardContentBR: Quem tem emprego toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Who is the most likely to spend money on something stupid? Everyone
+        points at the same time, that person drinks.
+      cardContentBR: Quem e mais provavel gastar dinheiro com algo bobo? Todos apontam
+        ao mesmo tempo, essa pessoa toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Oldest player drinks.
+      cardContentBR: O jogador mais velho toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Youngest player drinks.
+      cardContentBR: O jogador mais novo toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Everyone who is shorter than you drinks.
+      cardContentBR: Todos que sao mais baixos que voce tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone who is taller than you drinks.
+      cardContentBR: Todos que sao mais altos que voce tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink as many times as you\u2019ve been dumped."
+      cardContentBR: Tome goles conforme as vezes que ja foi dispensado.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: The person in front of you drinks.
+      cardContentBR: A pessoa a sua frente toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Show everyone the most embarrassing photo on your phone or take
+        a drink.
+      cardContentBR: "Mostre para todos a foto mais embara\xE7osa no seu celular
+        ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Without looking, guess what time it is. Drink if you aren\u2019t
+        within 3 minutes."
+      cardContentBR: Sem olhar, adivinhe que horas sao. Tome um gole se errar por
+        mais de 3 minutos.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who is most likely to steal candy from a child? They drink.
+      cardContentBR: Quem e mais provavel roubar doce de uma crianca? Essa pessoa
+        toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Choose a mate. For 5 rounds, if any of you ever have to drink,
+        you drink together.
+      cardContentBR: Escolha um companheiro. Por 5 rodadas, se algum de voces tiver
+        que tomar um gole, bebam juntos.
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Whoever has stolen money from their parents drink.
+      cardContentBR: Quem ja roubou dinheiro dos pais toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Joker! You don\u2019t have to drink for the next 5 rounds."
+      cardContentBR: Coringa! Voce nao precisa tomar goles pelas proximas 5 rodadas.
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Choose someone to drink.
+      cardContentBR: Escolha alguem para tomar um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Anyone who\u2019s wearing red takes a drink. &grupo"
+      cardContentBR: Quem estiver vestindo vermelho toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone touches you. The last one to do so drinks.
+      cardContentBR: Todos te tocam. O ultimo a fazer isso toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Tell everyone about your first crush or take a drink.
+      cardContentBR: Conte a todos sobre seu primeiro amor ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Everyone but you drinks.
+      cardContentBR: Todos menos voce tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Tell the players your biggest adventure! If it\u2019s boring,
+        take a drink."
+      cardContentBR: Conte aos jogadores sua maior aventura! Se for chato, tome um
+        gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Confess something or take two drinks.
+      cardContentBR: Confesse algo ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Tell everyone the worst gift you\u2019ve ever received. If it\u2019s
+        an \u201Cokay\u201D gift, take a drink."
+      cardContentBR: Conte a todos o pior presente que ja recebeu. Se for um presente
+        "ok", tome um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever run away from home."
+      cardContentBR: Tome um gole se ja fugiu de casa.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Whoever has been stitched already takes a drink. &grupo
+      cardContentBR: Quem ja levou pontos toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Choose someone to drink with you. They can\u2019t stop before
+        you."
+      cardContentBR: Escolha alguem para beber com voce. Eles nao podem parar antes
+        de voce.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone drinks the equivalent to their worst school grade.
+      cardContentBR: Todos tomam goles equivalentes a sua pior nota da escola.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Flip a coin. Tails, you drink, heads, everyone else drinks.
+      cardContentBR: Lance uma moeda. Cara, voce toma um gole, coroa, todos os outros
+        tomam.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Give another player a 1 minute foot massage or drink.
+      cardContentBR: De a outro jogador uma massagem de 1 minuto nos pes ou tome
+        um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone tells an embarrassing story, whoever gets the most embarrassing
+        one drinks.
+      cardContentBR: "Todos contam uma historia embara\xE7osa, quem tiver a mais
+        embara\xE7osa toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Tell a joke. If no one even chuckles, drink.
+      cardContentBR: Conte uma piada. Se ninguem rir, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Take a sip for every number in your age.
+      cardContentBR: Tome um gole para cada numero da sua idade.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Starting with you, take turns naming a color. Continue until someone
+        hesitates or repeats. That person drinks.
+      cardContentBR: "Come\xE7ando por voce, revezem-se dizendo uma cor. Continue
+        ate alguem hesitar ou repetir. Essa pessoa toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Whoever has a pet drinks.
+      cardContentBR: "Quem tem um animal de estima\xE7\xE3o toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Whoever is still studying drinks.
+      cardContentBR: Quem ainda esta estudando toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019re on TikTok."
+      cardContentBR: Tome um gole se estiver no TikTok.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: The person on your left drinks.
+      cardContentBR: A pessoa a sua esquerda toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Pick two people to perform a dance. You pick the worst performer
+        to drink. &grupo
+      cardContentBR: "Escolha duas pessoas para dan\xE7ar. Voce escolhe o pior dan\xE7arino
+        para tomar um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Count to three and everyone holds thumbs up or down. Whoever does
+        the opposite of you drinks.
+      cardContentBR: Conte ate tres e todos mostram o polegar para cima ou para baixo.
+        Quem fizer o oposto de voce toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: All the players with the same drink as you must drink.
+      cardContentBR: Todos os jogadores com a mesma bebida que voce devem tomar um
+        gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Anyone who has eaten during this game drinks.
+      cardContentBR: Quem comeu durante este jogo toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Pick someone to drink.
+      cardContentBR: Escolha alguem para tomar um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Can you burp on purpose? Do it or drink.
+      cardContentBR: "Voce consegue arrotar de proposito? Fa\xE7a isso ou tome um
+        gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Call a random phone number and keep a conversation for at least
+        a minute or drink.
+      cardContentBR: Ligue para um numero de telefone aleatorio e mantenha uma conversa
+        por pelo menos um minuto ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink four times or quit playing.
+      cardContentBR: Tome quatro goles ou pare de jogar.
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Let the person on your left draw in your face with a permanent
+        marker or drink.
+      cardContentBR: Deixe a pessoa a sua esquerda desenhar no seu rosto com um marcador
+        permanente ou tome um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Hold hands with the person on your right for the duration of the
+        game, if any of you want to let go, take two drinks each.
+      cardContentBR: "Segure as m\xE3os da pessoa a sua direita durante o jogo, se
+        algum de voces quiser soltar, tomem dois goles cada."
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Send a random gif to your last contact with no explanation or
+        drink.
+      cardContentBR: "Envie um gif aleatorio para seu ultimo contato sem explica\xE7\xE3o
+        ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: The person in front must choose your profile pic in any social
+        media for the rest of the evening, you can drink twice anytime if you wanna
+        take it out.
+      cardContentBR: "A pessoa a sua frente escolhe sua foto de perfil em qualquer
+        rede social pelo resto da noite, voce pode tomar dois goles a qualquer momento
+        se quiser retir\xE1-la."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Let the person in your right go through your dating app and do
+        whatever they want or drink.
+      cardContentBR: Deixe a pessoa a sua direita mexer no seu aplicativo de encontros
+        e fazer o que quiser ou tome um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Close your eyes and take a drink chosen by the grupo.
+      cardContentBR: Feche os olhos e tome uma bebida escolhida pelo grupo.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Shotgun a beer in under 20 seconds.
+      cardContentBR: Tome uma cerveja em menos de 20 segundos.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Put ten different liquids in a cup and drink it.
+      cardContentBR: Coloque dez liquidos diferentes em um copo e beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Go to a window and try to make someone wave at you, if they don\u2019t
+        wave back, drink."
+      cardContentBR: Va ate uma janela e tente fazer alguem acenar para voce, se
+        nao acenarem de volta, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Send an email applying for a job you find on the internet or drink
+        twice.
+      cardContentBR: Envie um email se candidatando a um emprego que voce encontrar
+        na internet ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Don\u2019t say \u201Cyes\u201D or \u201Cno\u201D for the rest
+        of the game, if you say it, drink."
+      cardContentBR: Nao diga "sim" ou "nao" pelo resto do jogo, se disser, tome
+        um gole.
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Punch the person in front of you or drink (Try not to hurt them
+        much).
+      cardContentBR: "De um soco na pessoa a sua frente ou tome um gole (Tente n\xE3o
+        machucar muito)."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Paint your nails or drink, you can use anything,
+      cardContentBR: Pinte suas unhas ou tome um gole, voce pode usar qualquer coisa,
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Turn two shots of water.
+      cardContentBR: Vire dois goles de agua.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Scream the national anthem through your window or drink.
+      cardContentBR: Grite o hino nacional pela sua janela ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Make the person on your left laugh in 30 seconds or drink.
+      cardContentBR: "Fa\xE7a a pessoa a sua esquerda rir em 30 segundos ou tome
+        um gole."
+      cardContentTop: 1
   - deckNumber: 0
     deckName: Love Connection
     timeSeconds: 86400
     onoff: 0
     cor: {r: 0.7176471, g: 0.34117648, b: 0.6784314, a: 1}
-    CardType: []
+    CardType:
+    - cardNumber: 0
+      cardContent: Hook up with the person on your left or drink twice.
+      cardContentBR: Fique com a pessoa a sua esquerda ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Hit on someone here like you\u2019re at a bar. You have a minute
+        to get them to kiss you."
+      cardContentBR: Paquere alguem aqui como se estivesse em um bar. Voce tem um
+        minuto para conseguir um beijo dela.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: The player in front of you must leave a hickey on your neck or
+        drink twice.
+      cardContentBR: O jogador a sua frente deve deixar uma chupada no seu pescoco
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Pick someone and guess the color of their underwear. If you get
+        it correctly, they drink, otherwise you drink.
+      cardContentBR: Escolha alguem e adivinhe a cor da sua roupa intima. Se acertar,
+        eles bebem, senao voce bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: If you never kissed any of the players, you must choose someone
+        to do so or drink twice.
+      cardContentBR: Se voce nunca beijou nenhum dos jogadores, deve escolher alguem
+        para beijar ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Kiss the person you have less intimacy with among the players
+        or drink twice.
+      cardContentBR: Beije a pessoa com quem voce tem menos intimidade entre os jogadores
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Kiss everyone you\u2019ve already kissed, if you haven\u2019t
+        kissed anyone here, drink twice."
+      cardContentBR: Beije todos que voce ja beijou, se voce nao beijou ninguem aqui,
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "If you\u2019ve ever kissed any of the other players, drink."
+      cardContentBR: Se voce ja beijou algum dos outros jogadores, beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Everyone that is taken drinks.
+      cardContentBR: Todos que estao comprometidos bebam.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone that is single drinks.
+      cardContentBR: Todos que estao solteiros bebam.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Declare your love to one of the players and make it sound like
+        you're being sincere. If they judge it good enough, everyone drinks. If they
+        don\u2019t, you drink"
+      cardContentBR: "Declare seu amor a um dos jogadores e fa\xE7a parecer sincero.
+        Se eles julgarem bom o suficiente, todos bebem. Se nao, voce bebe."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Who is most likely to bang a clone? Most voted drinks.
+      cardContentBR: Quem e mais provavel a ficar com um clone? O mais votado bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Take a card, suck it and hand it from mouth to mouth in turn.
+        The two that screw it up must drink twice.
+      cardContentBR: Pegue uma carta, chupe-a e passe de boca em boca. Os dois que
+        errarem devem tomar dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Let the player on your left make a kinky post on your Twitter
+        account or take a drink.
+      cardContentBR: Deixe o jogador a sua esquerda fazer uma postagem picante no
+        seu Twitter ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Whoever\u2019s ever been in a poly relationship drinks twice."
+      cardContentBR: Quem ja esteve em um relacionamento poliamoroso toma dois goles.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Sit down on the person to your left\u2019s lap for two rounds
+        or drink once."
+      cardContentBR: Sente-se no colo da pessoa a sua esquerda por duas rodadas ou
+        tome um gole.
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Tell us one of your pervert stories or take a drink.
+      cardContentBR: Conte uma de suas historias pervertidas ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink from someone\u2019s mouth."
+      cardContentBR: Beba da boca de alguem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever made out with a significantly older
+        person."
+      cardContentBR: Beba se voce ja ficou com alguem bem mais velho.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: The one with the biggest boobs drinks 3.
+      cardContentBR: A pessoa com os maiores seios bebe 3 goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: The person in your left and in your right must kiss or drink twice.
+      cardContentBR: A pessoa a sua esquerda e a sua direita devem se beijar ou tomar
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Suck someone\u2019s finger looking directly at them for 30 seconds
+        or drink twice."
+      cardContentBR: Chupe o dedo de alguem olhando diretamente para eles por 30
+        segundos ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Kiss the person that you think has the best skills or take a drink.
+      cardContentBR: Beije a pessoa que voce acha que tem as melhores habilidades
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Squeeze the person in your left\u2019s ass or you both drink."
+      cardContentBR: Aperte o bumbum da pessoa a sua esquerda ou ambos bebam.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Put candy in your mouth and pass it to someone without using your
+        hands or drink twice.
+      cardContentBR: Coloque um doce na boca e passe para alguem sem usar as maos
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Have you ever cheated on someone? Cheaters drink.
+      cardContentBR: Voce ja traiu alguem? Traidores bebam.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Smell the person in your left\u2019s neck or take a drink."
+      cardContentBR: Cheire o pescoco da pessoa a sua esquerda ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who in this room was a virgin for most of the time? Most voted
+        drinks.
+      cardContentBR: Quem nesta sala foi virgem por mais tempo? O mais votado bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Say what turns you on the most in every person here or drink.
+      cardContentBR: Diga o que mais te atrai em cada pessoa aqui ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Try to open up a player's blouse or pants using only your teeth
+        or drink twice.
+      cardContentBR: Tente abrir a blusa ou calca de um jogador usando apenas seus
+        dentes ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Put on lipstick and kiss someone of your choice or drink twice.
+      cardContentBR: Passe batom e beije alguem da sua escolha ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Choose 3 people in the game you would like to be in an apocalypse
+        together to restart the human race with you. They drink.
+      cardContentBR: Escolha 3 pessoas no jogo que voce gostaria de estar em um apocalipse
+        juntas para reiniciar a raca humana com voce. Elas bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Who was the last person you said \u201CI love you\u201D? Drink
+        if you meant it."
+      cardContentBR: Quem foi a ultima pessoa para quem voce disse "eu te amo"? Beba
+        se voce falou a verdade.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink or tell us your most memorable kiss.
+      cardContentBR: Beba ou conte-nos sobre seu beijo mais memoravel.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Kiss the person on your left. If they don\u2019t want it, move
+        on to the next one. Don\u2019t stop until you\u2019ve kissed two people,
+        otherwise, drink twice."
+      cardContentBR: Beije a pessoa a sua esquerda. Se ela nao quiser, siga para
+        a proxima. Nao pare ate ter beijado duas pessoas, caso contrario, tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Put an ice block in your mouth and pass it along until it melts
+        or drink twice.
+      cardContentBR: Coloque um cubo de gelo na boca e passe adiante ate ele derreter
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink or blindfold yourself. Spin and point someone, the one who
+        it lands on must make out with you.
+      cardContentBR: Beba ou vende-se. Gire e aponte alguem, a pessoa que voce apontar
+        deve te beijar.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Would you rather have a huge tattoo of your partner\u2019s name
+        in your chest,or a tiny one of their face in your arm? Majority drinks."
+      cardContentBR: Voce prefere ter uma grande tatuagem com o nome do seu parceiro
+        no peito ou uma pequena com o rosto dele no seu braco? Maioria toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever hooked up with someone and never spoke
+        to that person again."
+      cardContentBR: Tome um gole se voce ja ficou com alguem e nunca mais falou
+        com essa pessoa.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Take a drink for every time you\u2019ve imagined a life with
+        someone impossible."
+      cardContentBR: Tome um gole para cada vez que voce imaginou uma vida com alguem
+        impossivel.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever made out with someone three years younger
+        than you."
+      cardContentBR: Tome um gole se voce ja beijou alguem tres anos mais novo que
+        voce.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Kiss everyone in the game or drink 3.
+      cardContentBR: Beije todos no jogo ou tome 3 goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: One of us is dying to kiss someone here, who? The one with more
+        votes drinks.
+      cardContentBR: Um de nos esta doido para beijar alguem aqui, quem? A pessoa
+        com mais votos toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever fallen in love with a friend."
+      cardContentBR: Tome um gole se voce ja se apaixonou por um amigo.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you really want to change something about your looks.
+      cardContentBR: Tome um gole se voce realmente quer mudar algo na sua aparencia.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever fallen in love with someone you shouldn\u2019t."
+      cardContentBR: Tome um gole se voce ja se apaixonou por alguem que nao deveria.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you ever questioned your sexuality.
+      cardContentBR: Tome um gole se voce ja questionou sua sexualidade.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever had a crush on anyone in this room."
+      cardContentBR: Tome um gole se voce ja teve uma queda por alguem nesta sala.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Choose someone you think is more likely to have a thing for foot,
+        they have to drink twice.
+      cardContentBR: Escolha alguem que voce acha que tem uma coisa por pes, essa
+        pessoa deve tomar dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Say what you would do to your ex right now. Drink once if it\u2019s
+        something negative, and twice if it\u2019s something positive."
+      cardContentBR: Diga o que voce faria com seu ex agora. Tome um gole se for
+        algo negativo e dois se for positivo.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "How many people have you ever hooked up with? Drink once if it\u2019s
+        more than three, and thrice if you\u2019re not even sure."
+      cardContentBR: Com quantas pessoas voce ja ficou? Tome um gole se for mais
+        de tres e tres goles se nem tem certeza.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever had a hickey in your neck."
+      cardContentBR: Tome um gole se voce ja teve um chupao no pescoco.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Would you have a relationship without sex? Drink once for yes
+        and twice for no.
+      cardContentBR: Voce teria um relacionamento sem sexo? Tome um gole para sim
+        e dois para nao.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Say some people of the same gender as you that you\u2019d hook
+        up with or drink once."
+      cardContentBR: Diga algumas pessoas do mesmo genero que voce com quem voce
+        ficaria ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Take a drink for each person in here that you have hooked up with.
+      cardContentBR: Tome um gole para cada pessoa aqui com quem voce ja ficou.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Can any words make you \u201Cexcited\u201D? Tell us which ones
+        or drink."
+      cardContentBR: Algumas palavras te "excitam"? Diga quais sao ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Ass or breasts? Asses drink twice, breasts just once.
+      cardContentBR: Bunda ou peitos? Bunda toma dois goles, peitos apenas um.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever hooked up with someone compromised."
+      cardContentBR: Tome um gole se voce ja ficou com alguem comprometido.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you would exchange partners.
+      cardContentBR: Tome um gole se voce trocaria de parceiros.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you ever made out with someone you just met.
+      cardContentBR: Tome um gole se voce ja beijou alguem que acabou de conhecer.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you know how to untie a bra using only one hand.
+      cardContentBR: Tome um gole se voce sabe desamarrar um sutia usando apenas
+        uma mao.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Take a body shot from someone\u2019s belly or drink."
+      cardContentBR: Tome um shot do umbigo de alguem ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Bite someone\u2019s neck or drink twice."
+      cardContentBR: Morda o pescoco de alguem ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Put an ice cube in your mouth and give someone a hickey or drink
+        thrice.
+      cardContentBR: Coloque um cubo de gelo na boca e de um chupao em alguem ou
+        tome tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Close your eyes. Someone will kiss you and you have to guess who
+        it is. If you miss, drink.
+      cardContentBR: Feche os olhos. Alguem vai te beijar e voce tem que adivinhar
+        quem e. Se errar, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever been cheated on."
+      cardContentBR: Tome um gole se voce ja foi traido.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if there\u2019s a teacher/boss you would hook up with."
+      cardContentBR: Tome um gole se tiver um professor/chefe com quem voce ficaria.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you believe in monogamy.
+      cardContentBR: Tome um gole se voce acredita em monogamia.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "What do you think about \u201C50 Shades Of Grey\u201D? Negative
+        opinions drink once, Positive ones drink twice."
+      cardContentBR: O que voce acha de "50 Tons de Cinza"? Opinioes negativas tomam
+        um gole, positivas tomam dois.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you have a shitty ex.
+      cardContentBR: Tome um gole se voce tem um ex ruim.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Do you find yourself attractive? Two drinks for no, one drink
+        for yes.
+      cardContentBR: Voce se acha atraente? Dois goles para nao, um gole para sim.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if a partner has ever hit you.
+      cardContentBR: Tome um gole se um parceiro ja te bateu.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you ever made out with someone while drunk and completely
+        forgot afterwards.
+      cardContentBR: Tome um gole se ja ficou com alguem bebido e esqueceu completamente
+        depois.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: 'Drink or say: who has the best boobs in the room?'
+      cardContentBR: 'Tome um gole ou diga: quem tem os melhores seios da sala?'
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: 'Drink or say: who has the best ass in the room?'
+      cardContentBR: 'Tome um gole ou diga: quem tem o melhor bumbum da sala?'
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Would you rather date someone addicted to illicit drugs or to
+        alcohol? One drink for alcohol, two for drugs.
+      cardContentBR: Voce preferiria namorar alguem viciado em drogas ilicitas ou
+        em alcool? Um gole para alcool, dois para drogas.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you have a crush right now.
+      cardContentBR: Tome um gole se voce tem uma paixao no momento.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you don\u2019t believe in soulmates."
+      cardContentBR: Tome um gole se voce nao acredita em almas gemeas.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: 'Tell or drink: What was your worst experience with someone?'
+      cardContentBR: 'Conte ou tome um gole: Qual foi sua pior experiencia com alguem?'
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Ask another player any relationship-related question, if they
+        don\u2019t answer, they have to drink."
+      cardContentBR: "Fa\xE7a uma pergunta relacionada a relacionamentos para outro
+        jogador, se ele nao responder, ele tem que tomar um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "You must only speak to the person in your right as if you\u2019re
+        flirting for the next 4 rounds. If you stop, you drink."
+      cardContentBR: Voce deve falar com a pessoa a sua direita como se estivesse
+        flertando pelas proximas 4 rodadas. Se parar, tome um gole.
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Read something random in your most seductive way possible or drink.
+      cardContentBR: Leia algo aleatorio da forma mais sedutora possivel ou tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Touch tongues with the person in front of you or drink.
+      cardContentBR: Toque linguas com a pessoa a sua frente ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Close your eyes and kiss whatever is put in front of you or drink.
+      cardContentBR: Feche seus olhos e beije o que for colocado a sua frente ou
+        tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Kiss the person on your left in five places but their lips or
+        drink.
+      cardContentBR: Beije a pessoa a sua esquerda em cinco lugares exceto os labios
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Kiss your three favorite body parts on a person of your choosing
+        or drink.
+      cardContentBR: Beije suas tres partes do corpo favoritas em uma pessoa de sua
+        escolha ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: List five exes in alphabetic order or drink.
+      cardContentBR: Liste cinco ex em ordem alfabetica ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Text your ex telling them the advantages of getting back together
+        or drink twice.
+      cardContentBR: Mande mensagem para seu ex dizendo as vantagens de voltarem
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Kiss anyone you just met in the room or drink.
+      cardContentBR: Beije alguem que voce acabou de conhecer na sala ou tome um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Kiss the stomach of someone of your choice or drink.
+      cardContentBR: Beije a barriga de alguem de sua escolha ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Would you rather never drink anymore or never make out with someone?
+        Prove by drinking once or kissing a player of your choice.
+      cardContentBR: Voce preferiria nunca mais beber ou nunca mais ficar com alguem?
+        Prove tomando um gole ou beijando um jogador de sua escolha.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Slide into someone in this room\u2019s DM and shoot your best
+        shot or drink."
+      cardContentBR: Mande uma mensagem para alguem desta sala tentando flertar ou
+        tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Ask for a rematch with anyone here you\u2019ve ever made out
+        with or drink."
+      cardContentBR: Peca uma nova chance com alguem aqui com quem voce ja ficou
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Touch the breast of the person on your left, otherwise you both
+        drink.
+      cardContentBR: Toque no seio da pessoa a sua esquerda, senao voce e ela tomam
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Show someone the best way to kiss or drink.
+      cardContentBR: Mostre a alguem a melhor maneira de beijar ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Play a secretary trying to seduce your boss with the person on
+        your left, or you both drink.
+      cardContentBR: Interprete uma secretaria tentando seduzir seu chefe com a pessoa
+        a sua esquerda, ou voces dois tomam um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Swipe 30 times in your dating app with your eyes closed or drink.
+      cardContentBR: Deslize 30 vezes no seu aplicativo de namoro com os olhos fechados
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share the name of a person no one will believe you hooked up with
+        or drink.
+      cardContentBR: Compartilhe o nome de uma pessoa que ninguem acreditaria que
+        voce ficou ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Show a photo of someone you wanna make out with or drink twice.
+      cardContentBR: Mostre uma foto de alguem com quem voce quer ficar ou tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Make out with someone in the grupo while tied up or drink.
+      cardContentBR: Fique com alguem do grupo enquanto esta amarrado ou tome um
+        gole.
+      cardContentTop: 0
   - deckNumber: 0
     deckName: Steamy Secrets
     timeSeconds: 86400
     onoff: 0
     cor: {r: 0.8117648, g: 0.1254902, b: 0.20392159, a: 1}
-    CardType: []
+    CardType:
+    - cardNumber: 0
+      cardContent: Choose two people. They will have to go to a separate room with
+        you for 5 minutes. If they reject you or you don't want to choose anyone,
+        drink thrice.
+      cardContentBR: Escolha duas pessoas. Elas terao que ir para um quarto separado
+        com voce por 5 minutos. Se elas te recusarem ou voce nao quiser escolher
+        ninguem, tome tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Throw a drink on the chest of the person you find the most attractive
+        in the room and lick it off or drink three times (if the person rejects,
+        they also have to drink three times).
+      cardContentBR: "Jogue um gole no peito da pessoa que achar mais atraente na
+        sala e lamba ou tome tres goles (se a pessoa recusar, ela tamb\xE9m tem que
+        tomar tres goles)."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Choose someone here you would have sex with or drink.
+      cardContentBR: Escolha alguem aqui com quem voce teria relacoes ou tome um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: 'Sex: Lights on or off? Light-onners drink.'
+      cardContentBR: 'Sexo: Luz acesa ou apagada? Quem prefere com luz acesa toma
+        um gole.'
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Take off your shirt and loudly demand that the player to your
+        right squeeze your chest or drink once.
+      cardContentBR: Tire a camisa e exija alto que o jogador a sua direita aperte
+        seu peito ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Tell us how you\u2019d like a porn movie with you to go or drink
+        twice."
+      cardContentBR: Conte como gostaria que um filme porno com voce fosse ou tome
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Moan in the ear of the person to your left or drink once.
+      cardContentBR: Gema no ouvido da pessoa a sua esquerda ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever sexted someone."
+      cardContentBR: Tome um gole se ja enviou mensagens picantes para alguem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone who has had sex this week drinks once.
+      cardContentBR: Quem fez sexo esta semana toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Who is most likely to have sex in a bar\u2019s bathroom drinks."
+      cardContentBR: Quem e mais provavel de fazer sexo no banheiro de um bar toma
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who watches most porn? The one with more votes drinks.
+      cardContentBR: Quem assiste mais pornografia? O mais votado toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell your weirdest kink or drink.
+      cardContentBR: Conte sua fantasia mais estranha ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Call a drugstore for emergency condoms or drink.
+      cardContentBR: Ligue para uma farmacia pedindo preservativos de emergencia
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink twice if you own a sex toy.
+      cardContentBR: Tome dois goles se possui um brinquedo erotico.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Do a reenactment of the first time you had sex or drink.
+      cardContentBR: Reencene a primeira vez que teve relacoes ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Demonstrate how to put on a condom using a banana or drink twice.
+      cardContentBR: Demonstre como colocar um preservativo usando uma banana ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who would do the best oral sex drinks.
+      cardContentBR: Quem faria o melhor sexo oral toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Guess and rate the sexual performance of everyone in this room
+        or drink twice.
+      cardContentBR: Adivinhe e avalie a performance sexual de todos nesta sala ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Let the person on your front spank your butt or drink twice.
+      cardContentBR: Deixe a pessoa a sua frente dar um tapa no seu traseiro ou tome
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who is most likely to keep an ex-partner's underwear drinks.
+      cardContentBR: Quem e mais provavel de guardar a roupa intima de um ex toma
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who is most likely to have sex in public drinks.
+      cardContentBR: Quem e mais provavel de fazer sexo em publico toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Whoever has done anal sex drinks.
+      cardContentBR: Quem ja fez sexo anal toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever had sex with someone and denied it
+        afterwards."
+      cardContentBR: Tome um gole se ja teve relacoes com alguem e negou depois.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Whoever would pee in a partner during sex drinks.
+      cardContentBR: Quem faria xixi no parceiro durante o sexo toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Call someone and try to have an erotic conversation for 30 seconds
+        or drink 3.
+      cardContentBR: Ligue para alguem e tente ter uma conversa erotica por 30 segundos
+        ou tome tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who masturbates the most drinks.
+      cardContentBR: Quem se masturba mais toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you ever made a sextape.
+      cardContentBR: Tome um gole se ja fez um video intimo.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Whoever would watch anime porn drinks.
+      cardContentBR: Quem assistiria pornografia em anime toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Demonstrate your best oral sex moves with the nearest appropriate
+        object or drink.
+      cardContentBR: Demonstre seus melhores movimentos de sexo oral com o objeto
+        mais proximo apropriado ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Sussurre um segredo picante para o jogador a sua direita ou tome
+        dois goles.
+      cardContentBR: Sussurre um segredo picante para o jogador a sua direita ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Tell everyone the weirdest place you\u2019ve ever had sex in
+        or drink twice."
+      cardContentBR: Conte para todos o lugar mais estranho que ja fez sexo ou tome
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Tell us in detail the last porn you\u2019ve watched or drink
+        twice."
+      cardContentBR: Conte em detalhes o ultimo porno que assistiu ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Choose someone to take a piece of clothing from you or drink twice.
+      cardContentBR: Escolha alguem para tirar uma peca de roupa sua ou tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Show the closest thing to your \u201Corgasm face\u201D or drink
+        twice."
+      cardContentBR: Mostre algo parecido com sua "cara de orgasmo" ou tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever masturbated to someone in this room."
+      cardContentBR: Tome um gole se ja se masturbou pensando em alguem dessa sala.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Do an act as if you\u2019re touching yourself or drink twice."
+      cardContentBR: Aja como se estivesse se tocando ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Do a \u201Cmotorboat\u201D on someone of your choice\u2019s boobs
+        or drink twice."
+      cardContentBR: "Fa\xE7a um \"motorboat\" nos seios de alguem de sua escolha
+        ou tome dois goles."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Let the person in your right look inside your pants or drink twice.
+      cardContentBR: Deixe a pessoa a sua direita olhar dentro de sua calca ou tome
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve masturbated in the last two days."
+      cardContentBR: Tome um gole se se masturbou nos ultimos dois dias.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink or touch the person in your right\u2019s groin."
+      cardContentBR: Tome um gole ou toque na virilha da pessoa a sua direita.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Look under someone's blouse or drink.
+      cardContentBR: Olhe por baixo da blusa de alguem ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell us your biggest kink or take a drink.
+      cardContentBR: Conte qual e o seu fetiche mais forte ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell us how many times you had sex in a single day or drink.
+      cardContentBR: Conte quantas vezes fez sexo em um unico dia ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What is the most inappropriate place you\u2019ve ever masturbated?
+        Tell or take a drink."
+      cardContentBR: Qual o lugar mais inadequado que ja se masturbou? Conte ou tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell who you think is the best one in bed in this room and justify
+        or drink twice.
+      cardContentBR: "Diga quem voce acha que \xE9 o melhor na cama nesta sala e
+        justifique ou tome dois goles."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Doing oral sex or receiving it? Givers drink once, receivers drink
+        twice.
+      cardContentBR: Fazendo sexo oral ou recebendo? Quem faz toma um gole, quem
+        recebe toma dois.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever had sex in school/work."
+      cardContentBR: Tome um gole se ja fez sexo na escola/trabalho.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Describe your last wet dream or take a drink.
+      cardContentBR: Descreva seu ultimo sonho erotico ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Describe your first time having sex or drink.
+      cardContentBR: Descreva sua primeira vez fazendo sexo ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell us your favorite sex position or drink.
+      cardContentBR: "Conte qual \xE9 sua posi\xE7\xE3o sexual favorita ou tome um
+        gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: If you could fantasize about your partner in any way, what would
+        it be? Drink or answer.
+      cardContentBR: Se pudesse fantasiar sobre seu parceiro de qualquer maneira,
+        como seria? Beba ou responda.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Get your nipples hard or drink.
+      cardContentBR: "Fa\xE7a seus mamilos ficarem duros ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Perform a striptease to an 80\u2019s song or drink."
+      cardContentBR: "Fa\xE7a um striptease com uma musica dos anos 80 ou tome um
+        gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Leave a hickey on someone\u2019s inner thighs or drink twice."
+      cardContentBR: Deixe um chupao na parte interna da coxa de alguem ou tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Tell us your favorite sex toy or the one you\u2019d like to try
+        out the most or take a drink."
+      cardContentBR: "Conte qual \xE9 seu brinquedo sexual favorito ou o que gostaria
+        de experimentar mais ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Choose a sexual role-play scenario you\u2019d try out or drink
+        twice."
+      cardContentBR: Escolha um cenario de role-play sexual que gostaria de experimentar
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Put an ice block in your underwear and let it melt or drink thrice.
+      cardContentBR: Coloque um cubo de gelo em sua roupa intima e deixe derreter
+        ou tome tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Write something suggestive in a player of your choice\u2019s
+        body part or drink."
+      cardContentBR: Escreva algo sugestivo em uma parte do corpo de um jogador de
+        sua escolha ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink or blindfold yourself. All the players have 20 seconds to
+        touch you wherever they want.
+      cardContentBR: Tome um gole ou vende-se. Todos os jogadores tem 20 segundos
+        para te tocar onde quiserem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell the weirdest thing you heard while having sex or drink once.
+      cardContentBR: Conte a coisa mais estranha que ouviu enquanto fazia sexo ou
+        tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: 'Girls: take off your bras and leave the shirts. Boys: Take off
+        your shits but leave the bras. Anyone who refuses to take away anything drinks.'
+      cardContentBR: "Meninas: tirem seus suti\xE3s e deixem as camisetas. Meninos:
+        Tirem as camisetas mas deixem os suti\xE3s. Quem se recusar a tirar qualquer
+        coisa toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Close your eyes and touch someone. You have to kiss the place
+        you touched, or take a drink.
+      cardContentBR: Feche os olhos e toque alguem. Voce tem que beijar o lugar que
+        tocou, ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Would you rather have sex in a bed filled with mold or in a smelly
+        bathroom stall? Minority drinks.
+      cardContentBR: Voce preferiria fazer sexo em uma cama cheia de mofo ou em um
+        banheiro fedido? Minorias tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Would you rather have a threesome with two guys or with two girls?
+        Majority drinks.
+      cardContentBR: Voce preferiria um menage com dois homens ou com duas mulheres?
+        Maioria toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Would you rather date someone who refuses to do oral sex or date
+        someone who refuses to get on top? Minorities drink.
+      cardContentBR: Voce preferiria namorar alguem que se recusa a fazer sexo oral
+        ou alguem que se recusa a ficar por cima? Minorias tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Everyone who\u2019s ever been on pornhub drinks."
+      cardContentBR: Quem ja entrou no pornhub toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever masturbated to hentai."
+      cardContentBR: Tome um gole se ja se masturbou vendo hentai.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you ever had an orgy.
+      cardContentBR: Tome um gole se ja participou de uma orgia.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Everyone who\u2019s been a virgin for more than 15 years drinks."
+      cardContentBR: Quem foi virgem por mais de 15 anos toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever had sex in a public place."
+      cardContentBR: "Tome um gole se ja teve rela\xE7\xF5es em um lugar publico."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever had gay sex."
+      cardContentBR: "Tome um gole se ja teve rela\xE7\xF5es gay."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever had sex for more than three hours straight."
+      cardContentBR: "Tome um gole se ja teve rela\xE7\xF5es por mais de tres horas
+        seguidas."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Who seems to be more selfish on the bed? The most voted one drinks
+      cardContentBR: Quem parece ser mais egoista na cama? O mais votado toma um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who here would you never have sex with? Answer or drink.
+      cardContentBR: "Com quem aqui voce nunca teria rela\xE7\xF5es? Responda ou
+        tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Do you prefer being on top or bottom? Tops drink twice, bottoms
+        just once, switches take three.
+      cardContentBR: Voce prefere por cima ou por baixo? Quem prefere por cima toma
+        dois goles, por baixo toma um, versateis tomam tres.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Who here would bang a furry? Most voted one drinks.
+      cardContentBR: Quem aqui ficaria com um furry? O mais votado toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Kinkshame someone or drink once.
+      cardContentBR: Julgue o fetiche de alguem ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who here seems to be grossed out by doing oral sex? Most voted
+        one drinks.
+      cardContentBR: Quem aqui parece ter nojo de fazer sexo oral? O mais votado
+        toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Who here really enjoys the 34th rule of the internet, \u201Cif
+        it exists there's porn of it\u201D? Choose someone and they\u2019ll drink."
+      cardContentBR: "Quem aqui gosta mesmo da 34\xAA regra da internet, \"se existe,
+        tem pornografia\"? Escolha alguem e essa pessoa toma um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Non-virgins drink.
+      cardContentBR: "Quem ja nao \xE9 virgem toma um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Virgins drink.
+      cardContentBR: Virgens tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Send a shirtless pic to someone you\u2019ve had sex with or drink."
+      cardContentBR: "Envie uma foto sem camisa para alguem com quem voce ja teve
+        rela\xE7\xF5es ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Let someone tie you up using a sock or a hoodie and do anything
+        they want to you, otherwise drink twice.
+      cardContentBR: Deixe alguem te amarrar com uma meia ou moletom e fazer o que
+        quiser contigo, caso contrario tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Take off someone\u2019s bra without removing their shirt or drink."
+      cardContentBR: "Tire o suti\xE3 de alguem sem tirar a camisa dela ou tome um
+        gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Pick four people or drink, you must kiss one, feel one out, smack
+        one and give the other one a lap dance.
+      cardContentBR: Escolha quatro pessoas ou tome um gole, voce deve beijar uma,
+        amassar uma, dar um tapa em uma e dar um lap dance na outra.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Face the person on your left and rub your hand on their underwear
+        for 30 seconds, or drink.
+      cardContentBR: Encare a pessoa a sua esquerda e passe a mao na sua roupa intima
+        por 30 segundos, ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: BDSM enjoyers drink.
+      cardContentBR: Quem gosta de BDSM toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Who here would do sex using food? Most voted one drinks.
+      cardContentBR: Quem aqui faria sexo usando comida? O mais votado toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Fetishes are genetic. Tell us what kinks your parents would have
+        or drink twice.
+      cardContentBR: Fetiches sao geneticos. Diga quais seriam os fetiches dos seus
+        pais ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever had sex on water."
+      cardContentBR: Tome um gole se ja fez sexo na agua.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Say something weird that made you cum or take a drink.
+      cardContentBR: Diga algo estranho que te fez gozar ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: How old was everyone on their first time? Tell or drink.
+      cardContentBR: Qual era a idade de todos na primeira vez? Conte ou tome um
+        gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Tell what is the weirdest thing you\u2019ve masturbated to or
+        drink twice."
+      cardContentBR: Diga qual foi a coisa mais estranha a qual voce se masturbou
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Describe your weirdest erotic dream or drink.
+      cardContentBR: Descreva seu sonho erotico mais estranho ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: If you were a food, what the person in your right think you would
+        be and would they rather eat you or drink?
+      cardContentBR: Se voce fosse uma comida, o que a pessoa a sua direita acha
+        que voce seria e ela preferiria te comer ou tomar um gole?
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Talk to your hand like you're making a game plan to sleep with
+        someone in the room or drink.
+      cardContentBR: Converse com sua mao como se estivesse planejando dormir com
+        alguem da sala ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Demonstrate \u201Chow to\u201D finger a woman or drink."
+      cardContentBR: Demonstre "como" dedilhar uma mulher ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Describe yourself only using dirty talk or drink.
+      cardContentBR: Descreva-se usando apenas conversa picante ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Buy a sex toy on Amazon for $20 dollars max or drink twice.
+      cardContentBR: Compre um brinquedo sexual na Amazon por no maximo $20 dolares
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Take a body shot from the youngest person in the grupo.
+      cardContentBR: Tome um gole do corpo da pessoa mais nova do grupo.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell the grupo the last time you orgasmed and describe it in detail
+        or drink.
+      cardContentBR: Conte ao grupo a ultima vez que voce teve um orgasmo e descreva
+        em detalhes ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: The person on your left has to ride you like a cowboy or drink
+        twice.
+      cardContentBR: A pessoa a sua esquerda tem que te montar como um cowboy ou
+        tomar dois goles.
+      cardContentTop: 0
   - deckNumber: 0
     deckName: Wicked Whispers
     timeSeconds: 86400
     onoff: 0
     cor: {r: 0.43529415, g: 0.24705884, b: 0.7176471, a: 1}
-    CardType: []
+    CardType:
+    - cardNumber: 0
+      cardContent: Stay with only two pieces of clothing until it's your turn again
+        or drink for every piece you wish to maintain.
+      cardContentBR: "Fique apenas com duas pe\xE7as de roupa at\xE9 que seja sua
+        vez novamente ou tome um gole para cada pe\xE7a que desejar manter."
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Remove a piece of clothing for every non-text notification you
+        get on your phone for the next five rounds, drink for every piece you wanna
+        maintain.
+      cardContentBR: "Tire uma pe\xE7a de roupa para cada notifica\xE7\xE3o que n\xE3o
+        for de texto que receber no celular nas proximas cinco rodadas, beba por
+        cada pe\xE7a que quiser manter."
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Like three old photos of an old crush of yours or drink twice.
+      cardContentBR: Curta tres fotos antigas de um antigo(a) crush seu ou tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Call the last person in your contacts saying you\u2019re \u201Csorry
+        about what happened\u201D or drink twice."
+      cardContentBR: Ligue para a ultima pessoa nos seus contatos dizendo "desculpe
+        pelo que aconteceu" ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Change your bio to \u201CI\u2019m coming\u2026I\u2019m coming\u201D
+        and then a minute later change it to \u201CI just came.\u201D or drink thrice."
+      cardContentBR: Mude sua bio para "Estou chegando... Estou chegando" e depois
+        de um minuto mude para "Acabei de chegar." ou tome tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Trace your hands over someone\u2019s lips and whisper \u201CI\u2019m
+        coming\u201D five times or drink."
+      cardContentBR: "Passe suas m\xE3os nos l\xE1bios de algu\xE9m e sussurre \"Estou
+        chegando\" cinco vezes ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Perform the most flexible thing you can do with your body or drink.
+      cardContentBR: "Fa\xE7a a coisa mais flexivel que consegue com seu corpo ou
+        tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Choose someone to decide something for you to do, and they also
+        decide how much you drink if you don't do it. Good luck!
+      cardContentBR: Escolha alguem para decidir algo para voce fazer, e essa pessoa
+        tambem decide quantos goles voce vai tomar se nao fizer. Boa sorte!
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Take off your clothes and put them inside out in front of everyone
+        or drink twice.
+      cardContentBR: Tire suas roupas e coloque-as do avesso na frente de todos ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Remove a piece of clothing every time someone does a dare for
+        the next 3 rounds or drink thrice.
+      cardContentBR: "Tire uma pe\xE7a de roupa toda vez que alguem cumprir um desafio
+        nas proximas tres rodadas ou tome tres goles."
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: You must follow the next person that goes to the bathroom or drink
+        thrice.
+      cardContentBR: Voce deve seguir a proxima pessoa que for ao banheiro ou tome
+        tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: '"Never have I ever", say something you''ve never done. If someone
+        has done it, they take a drink.'
+      cardContentBR: Nunca eu nunca, diga algo que nunca fez. Se alguem ja fez, toma
+        um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Twerk on someone in a song\u2019s rhythm or drink twice."
+      cardContentBR: Rebole em alguem no ritmo de uma musica ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Next time you go to the bathroom, call your mom and talk to her
+        while you\u2019re there, or drink."
+      cardContentBR: Na proxima vez que for ao banheiro, ligue para sua mae e converse
+        com ela enquanto estiver la ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Touch yourself as you\u2019d touch the person in your right or
+        drink twice."
+      cardContentBR: Toque-se como tocaria a pessoa a sua direita ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Call the last person on your phone and moan loudly or drink.
+      cardContentBR: Ligue para a ultima pessoa no seu telefone e geme alto ou tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Open your instagram, choose someone that\u2019s not here, like
+        every single post on their feed from last year or drink thrice."
+      cardContentBR: Abra seu instagram, escolha alguem que nao esteja aqui, curta
+        todos os posts do feed dessa pessoa do ultimo ano ou tome tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Now you depend on the other players! Take a piece of clothing
+        for every time someone says your name out loud for the next round or drink
+        thrice.
+      cardContentBR: "Agora voce depende dos outros jogadores! Tire uma pe\xE7a de
+        roupa toda vez que alguem disser seu nome em voz alta na proxima rodada ou
+        tome tres goles."
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: Say what piece of clothing you would remove from each person here
+        or drink.
+      cardContentBR: "Diga qual pe\xE7a de roupa voce removeria de cada pessoa aqui
+        ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Say what is the weirdest thing you do/did when you were alone
+        or drink.
+      cardContentBR: Diga qual e a coisa mais estranha que voce faz/fazia quando
+        estava sozinho ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever been handcuffed."
+      cardContentBR: Beba se ja foi algemado.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: What text would you delete from your phone if someone would take
+        it right now? Drink or say it out loud.
+      cardContentBR: Qual texto voce deletaria do seu telefone se alguem fosse pegar
+        agora? Tome um gole ou diga em voz alta.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Massage someone without using your hands or drink.
+      cardContentBR: Massageie alguem sem usar as maos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Kiss the person in your left\u2019s ear or drink."
+      cardContentBR: Beije a orelha da pessoa a sua esquerda ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Reveal something your parents don\u2019t know or drink."
+      cardContentBR: Revele algo que seus pais nao sabem ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Eat a banana with no hands or drink twice.
+      cardContentBR: Coma uma banana sem usar as maos ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Give someone a foot massage or drink.
+      cardContentBR: Fac,a uma massagem nos pes de alguem ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Turn a shot cup in someone's mouth, but using your own mouth.
+      cardContentBR: Gire um copo de shot na boca de alguem usando sua propria boca.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Post something really judgeable that the other players suggest
+        you or drink.
+      cardContentBR: Poste algo realmente questionavel que os outros jogadores sugerirem
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Answer a really personal question asked by the person on your
+        left or drink.
+      cardContentBR: Responda uma pergunta muito pessoal feita pela pessoa a sua
+        esquerda ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Pretend to be making love to the couch for a whole minute or drink
+        twice.
+      cardContentBR: Finja estar fazendo amor com o sofa por um minuto inteiro ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Think of a question that is unmakeable. Now ask that to the person
+        sitting in front of you, and they must answer or drink.
+      cardContentBR: Pense em uma pergunta que e impossivel. Agora fac,a essa pergunta
+        para a pessoa sentada a sua frente, e ela deve responder ou tomar um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink or spend the rest of the game in your underwear.
+      cardContentBR: Tome um gole ou passe o resto do jogo de cueca/calcinha.
+      cardContentTop: 2
+    - cardNumber: 0
+      cardContent: "Tweet that you secretly agree with everything Kanye West has
+        ever said, and you can\u2019t delete it or disprove it later, or drink twice."
+      cardContentBR: Tuite que voce secretamente concorda com tudo que Kanye West
+        ja disse, e voce nao pode apagar ou desmentir depois, ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share a secret that you never told anybody or drink twice.
+      cardContentBR: Compartilhe um segredo que voce nunca contou a ninguem ou tome
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Draw a tiny penis on your face. You have to keep that for a whole
+        day and not wash it, or drink.
+      cardContentBR: Desenhe um pequeno penis no seu rosto. Voce deve manter isso
+        por um dia inteiro sem lavar, ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Show everyone the last time you flirted by text or drink twice.
+      cardContentBR: Mostre para todos a ultima vez que voce flertou por texto ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell two embarrassing stories, one really about you and one that
+        is fake. Everyone must try to guess which one is yours and if someone get
+        it right, everyone else drinks.
+      cardContentBR: "Conte duas historias embara\xE7osas, uma realmente sobre voce
+        e outra falsa. Todos devem tentar adivinhar qual e a sua e se alguem acertar,
+        todos os outros tomam um gole."
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Mimic, like a furry, an animal of the other players choice or
+        drink.
+      cardContentBR: Imite, como um furry, um animal escolhido pelos outros jogadores
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Each one of the players must ask you a \u201Cyes\u201D or \u201Cno\u201D
+        question and you have to answer without dodging, or drink twice."
+      cardContentBR: Cada um dos jogadores deve fazer uma pergunta de "sim" ou "nao"
+        e voce deve responder sem desviar, ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Text your last contact saying \u201Cwhat\u2019s wrong with you?\u201D
+        or drink twice."
+      cardContentBR: Envie uma mensagem para seu ultimo contato dizendo "o que ha
+        de errado com voce?" ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share your social media password or drink thrice.
+      cardContentBR: Compartilhe sua senha de midia social ou tome tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Share the most embarrassing nickname someone\u2019s ever given
+        you or drink."
+      cardContentBR: "Compartilhe o apelido mais embara\xE7oso que alguem ja te deu
+        ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "The person on your left must whisper to you an embarrassing secret
+        and you must assign how much they\u2019ll drink for you not to reveal it.
+        (0-4) &individual"
+      cardContentBR: "A pessoa a sua esquerda deve sussurrar um segredo embara\xE7oso
+        e voce deve determinar quantos goles ela vai tomar para voce nao revelar.
+        (0-4)"
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "One of the players must ask you a \u201Cwhat do you prefer\u201D
+        embarrassing question. Answer or drink. &individual"
+      cardContentBR: Um dos jogadores deve te fazer uma pergunta constrangedora "o
+        que voce prefere". Responda ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Post an embarrassing selfie on your feed or drink twice. &individual
+      cardContentBR: "Poste uma selfie embara\xE7osa no seu perfil ou tome dois goles."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Do a \u201Ctruth or dare\u201D question to the person on your
+        right. If they don\u2019t want to answer/do the dare, they drink. &individual"
+      cardContentBR: "Fa\xE7a uma pergunta de \"verdade ou desafio\" para a pessoa
+        a sua direita. Se ela nao quiser responder ou fazer o desafio, ela toma um
+        gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "The person on your left must do 10 squats while you\u2019re underneath
+        them or drink twice. &individual"
+      cardContentBR: A pessoa a sua esquerda deve fazer 10 agachamentos enquanto
+        voce esta embaixo dela ou toma dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Do your best impression of a porno involving a pizza delivery
+        guy or drink. &individual
+      cardContentBR: "Fa\xE7a sua melhor imitacao de um filme porno com um entregador
+        de pizza ou tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Reveal what you\u2019re more ashamed of in yourself or drink.
+        &individual"
+      cardContentBR: Revele do que voce mais se envergonha em si mesmo ou tome um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What is the most embarrassing thing you\u2019ve ever done on
+        the internet? The person on your left must assign how much you\u2019ll drink
+        based on it. &individual"
+      cardContentBR: "Qual e a coisa mais embara\xE7osa que voce ja fez na internet?
+        A pessoa a sua esquerda deve determinar quantos goles voce vai tomar baseado
+        nisso."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What is the most embarrassing thing you\u2019ve ever done in
+        front of a person you liked? The person on your right must assign how much
+        you\u2019ll drink based on it. &individual"
+      cardContentBR: "Qual e a coisa mais embara\xE7osa que voce ja fez na frente
+        de alguem que voce gostava? A pessoa a sua direita deve determinar quantos
+        goles voce vai tomar baseado nisso."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever been caught masturbating. &grupo"
+      cardContentBR: Tome um gole se voce ja foi pego se masturbando.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Share a time where you accidentally felt racist or sexist. The
+        other players will say if you\u2019re forgiven and how much you\u2019ll drink.
+        &individual"
+      cardContentBR: Compartilhe uma vez que voce se sentiu acidentalmente racista
+        ou sexista. Os outros jogadores vao dizer se voce esta perdoado e quantos
+        goles vai tomar.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share your internet history or drink. &individual
+      cardContentBR: Compartilhe seu historico da internet ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share your calculator history or drink. &individual
+      cardContentBR: Compartilhe seu historico da calculadora ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share your instagram DM or drink. &individual
+      cardContentBR: Compartilhe suas mensagens diretas do instagram ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Do you have anyone you say you like but you actually don\u2019t?
+        Reveal who it is or drink. &individual"
+      cardContentBR: Voce tem alguem que diz que gosta mas na verdade nao gosta?
+        Revele quem e ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: 'Two truths, one lie: go! Who misses drinks. &grupo'
+      cardContentBR: 'Duas verdades, uma mentira: va! Quem errar toma um gole.'
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Share the most socially awkward interaction you\u2019ve ever
+        had and take a drink. &individual"
+      cardContentBR: Compartilhe a interacao social mais desajeitada que voce ja
+        teve e tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Share a habit that you\u2019re embarrassed of or drink twice.
+        &individual"
+      cardContentBR: Compartilhe um habito que te envergonha ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you still pee in the pool. &grupo
+      cardContentBR: Tome um gole se voce ainda faz xixi na piscina.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you lied playing this game so far. &grupo
+      cardContentBR: Tome um gole se voce mentiu jogando este jogo ate agora.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink thrice or let everyone here search their names in your most
+        used message app.
+      cardContentBR: Beba tres vezes ou deixe todos aqui procurarem seus nomes no
+        seu app de mensagens mais usado.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if your parents ever gave you condoms.
+      cardContentBR: Beba se seus pais ja lhe deram camisinhas.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Reveal your sexual guilty pleasure or drink twice.
+      cardContentBR: Revele seu prazer culposo sexual ou beba duas vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever shoplifted."
+      cardContentBR: Beba se voce ja furtou algo de uma loja.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you ever drunk-texted your ex.
+      cardContentBR: Beba se voce ja mandou mensagem para seu ex enquanto estava
+        bebado.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Everyone must tell a secret they never told anyone or everyone
+        drinks.
+      cardContentBR: Todos devem contar um segredo que nunca contaram a ninguem ou
+        todos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Everyone must tell a secret, if someone doesn\u2019t want to,
+        they drink and the next person tells two secrets."
+      cardContentBR: Todos devem contar um segredo, se alguem nao quiser, essa pessoa
+        bebe e a proxima conta dois segredos.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Do something audacious proposed by the other players or drink.
+      cardContentBR: Faca algo audacioso proposto pelos outros jogadores ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Share a gossip that you\u2019ve heard recently, if no one finds
+        it interesting, drink."
+      cardContentBR: Compartilhe uma fofoca que ouviu recentemente, se ninguem achar
+        interessante, beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Improvise a speech of an embarrassing theme other players propose
+        to you for 40 seconds. If it\u2019s not good, everyone drinks."
+      cardContentBR: "Improvisar um discurso sobre um tema embara\xE7oso que os outros
+        jogadores te propuserem por 40 segundos. Se nao for bom, todos bebem."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Make a spicy joke to the person on your left, if they don\u2019t
+        want to kiss you, you both drink."
+      cardContentBR: Faca uma piada picante para a pessoa a sua esquerda, se ela
+        nao quiser te beijar, ambos bebem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Answer to a nuisance question or drink.
+      cardContentBR: Responda a uma pergunta inconveniente ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Share something you\u2019d never do, even if a lot of money was
+        on the game. If someone would do it, they drink"
+      cardContentBR: Compartilhe algo que voce nunca faria, mesmo que tivesse muito
+        dinheiro em jogo. Se alguem faria, essa pessoa bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Write a poem about the person on your left in a minute and a half
+        and present it, or drink.
+      cardContentBR: Escreva um poema sobre a pessoa a sua esquerda em um minuto
+        e meio e apresente, ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Hold an ice cube in the person on your right\u2019s neck until
+        it melts or both of you drink."
+      cardContentBR: Segure um cubo de gelo no pescoco da pessoa a sua direita ate
+        derreter ou ambos bebem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Turn a water and ice bucket in your head or drink thrice.
+      cardContentBR: Vire um balde de agua e gelo na sua cabeca ou beba tres vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever played a drinking game with your parents."
+      cardContentBR: Beba se voce ja jogou um jogo de bebida com seus pais.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you ever walked in on your parents doing it.
+      cardContentBR: Beba se voce ja flagrou seus pais naquele momento intimo.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: 'True or false, or drink: you have a crush on [other players fill
+        the blank]?'
+      cardContentBR: 'Verdadeiro ou falso, ou beba: voce tem uma quedinha por [os
+        outros jogadores preenchem]?'
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Show us what color of underwear you're wearing right now or drink.
+      cardContentBR: Mostre-nos qual a cor da sua roupa intima que esta usando agora
+        ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Would you break up with a partner for a million dollars? Two drinks
+        for yes, one drink for no.
+      cardContentBR: Voce terminaria um relacionamento por um milhao de dolares?
+        Dois goles para sim, um gole para nao.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Repost the worst thing on your achieved stories on Instagram or
+        drink twice.
+      cardContentBR: Repasse a pior coisa dos seus stories arquivados no Instagram
+        ou beba duas vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Describe in detail your last erotic dream or drink.
+      cardContentBR: Descreva em detalhes seu ultimo sonho erotico ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What is the most illegal thing you would do if it was possible?
+        The other players decide how much you\u2019ll drink based on it."
+      cardContentBR: Qual e a coisa mais ilegal que voce faria se fosse possivel?
+        Os outros jogadores decidem quantos goles voce vai tomar com base nisso.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink thrice if you ever did LARP (Live-Action Role Play).
+      cardContentBR: Beba tres vezes se ja participou de LARP (Live-Action Role Play).
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Tell us who here you would spy on if you could be invisible or
+        drink.
+      cardContentBR: Conte-nos quem aqui voce espionaria se pudesse ser invisivel
+        ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever played RPG by text."
+      cardContentBR: Beba se ja jogou RPG por texto.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Share a nasty pic with the grupo or drink thrice.
+      cardContentBR: Compartilhe uma foto desagradavel com o grupo ou beba tres vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever watched porn on Twitter."
+      cardContentBR: Beba se ja assistiu pornografia no Twitter.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Confess something that you\u2019ve always wanted to say to someone
+        here or drink."
+      cardContentBR: Confesse algo que sempre quis dizer a alguem aqui ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you ever wanted to date anyone in this room, and if
+        you don\u2019t want to drink one more, tell us who it is."
+      cardContentBR: Beba se ja quis ficar com alguem nesta sala, e se nao quiser
+        beber mais um, conte-nos quem e.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Let everyone kinkshame you or drink.
+      cardContentBR: Deixe todos te criticarem por seus fetiches ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you ever truly wished your parents were dead.
+      cardContentBR: Beba se ja desejou de verdade que seus pais estivessem mortos.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you'd rather post your whole internet history (even the
+        anonymous mode stuff) than turn a whole vodka bottle in one sip.
+      cardContentBR: Beba se preferir postar todo o seu historico da internet (ate
+        as coisas em modo anonimo) a virar uma garrafa inteira de vodka de uma vez.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Give your phone to the person on your left and let them text anyone
+        or finish your drink.
+      cardContentBR: De o seu telefone para a pessoa a sua esquerda e deixe ela enviar
+        uma mensagem para qualquer um ou termine sua bebida.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Let the grupo go through your phone\u2019s gallery for 60 seconds
+        or drink twice."
+      cardContentBR: Deixe o grupo olhar a galeria do seu telefone por 60 segundos
+        ou beba duas vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Post a selfie doing your biggest \u201CO\u201D face on your stories
+        or drink twice."
+      cardContentBR: Poste uma selfie fazendo sua maior cara de "O" nos seus stories
+        ou beba duas vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Open a live on instagram as if you have something very important
+        to say or drink.
+      cardContentBR: Abra uma live no instagram como se tivesse algo muito importante
+        para dizer ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Message your ex or drink thrice.
+      cardContentBR: Mande uma mensagem para o seu ex ou beba tres vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Scroll through your contacts and stop at a random one. Either
+        call it, delete it, or drink twice.
+      cardContentBR: Role seus contatos e pare em um aleatorio. Ou ligue para ele,
+        delete-o ou beba duas vezes.
+      cardContentTop: 0
   - deckNumber: 0
     deckName: Geek Galaxy
     timeSeconds: 86400
     onoff: 0
     cor: {r: 0.17254902, g: 0.33333334, b: 0.8117648, a: 1}
-    CardType: []
+    CardType:
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever played League of Legends."
+      cardContentBR: Beba se voce ja jogou League of Legends.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Share your guilty pleasure tv show or drink.
+      cardContentBR: Compartilhe seu programa de TV favorito que te da prazer culpado
+        ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink for every geek stereotype that you identify with.
+      cardContentBR: Beba para cada estereotipo geek com o qual voce se identifica.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you often play video games.
+      cardContentBR: Beba se voce costuma jogar video games.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever played Valorant."
+      cardContentBR: Beba se voce ja jogou Valorant.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you prefer indie games.
+      cardContentBR: Beba se voce prefere jogos indie.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Is there anyone here who likes the show Friends? That person drinks.
+      cardContentBR: Tem alguem aqui que gosta do seriado Friends? Essa pessoa bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you only ever played triple A\u2019s."
+      cardContentBR: Beba se voce so jogou jogos triple A.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever spent money in a video game."
+      cardContentBR: Beba se voce ja gastou dinheiro em um video game.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name three games with medieval tematics in 30 seconds or drink.
+      cardContentBR: Nomeie tres jogos com tematica medieval em 30 segundos ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share your steam list or drink.
+      cardContentBR: Compartilhe sua lista da Steam ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you support any streamers on twitch.
+      cardContentBR: Beba se voce apoia algum streamer no Twitch.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Is Yoshi a dinosaur or a dog? Guess it right or drink.
+      cardContentBR: Yoshi e um dinossauro ou um cachorro? Acerte ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Mimic a famous character from a game, a show or a movie or drink.
+        If anyone guesses, everyone drinks.
+      cardContentBR: Imite um personagem famoso de um jogo, seriado ou filme ou beba.
+        Se alguem acertar, todos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Quote a famous line from a video game. If someone gets where
+        it\u2019s from, all the other players drink."
+      cardContentBR: Cite uma fala famosa de um video game. Se alguem souber de onde
+        e, todos os outros jogadores bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Choose a superpower from a famous hero and explain why. If someone
+        else would choose it, you both drink.
+      cardContentBR: Escolha um superpoder de um heroi famoso e explique por que.
+        Se mais alguem escolher o mesmo, ambos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name five games, films or shows that you would watch in a maratone
+        and drink for each one of them.
+      cardContentBR: Nomeie cinco jogos, filmes ou seriados que voce assistiria em
+        uma maratona e beba por cada um deles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Create a complete story for a new video game in 60 seconds or
+        drink.
+      cardContentBR: Crie uma historia completa para um novo video game em 60 segundos
+        ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Who interprets Peter Parker in \u201CSpider Man: No Way Home\u201D?
+        Drink or get it."
+      cardContentBR: "Quem interpreta Peter Parker em \u201CHomem Aranha: Sem Volta
+        Para Casa\u201D? Beba ou acerte."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name the protagonist of Zelda or drink.
+      cardContentBR: Nomeie o protagonista de Zelda ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Do you prefer The Last of Us Part 1 or Part 2? Drink once for
+        1, twice for 2 and thrice if you never played the saga.
+      cardContentBR: Voce prefere The Last of Us Parte 1 ou Parte 2? Beba uma vez
+        para 1, duas vezes para 2 e tres vezes se nunca jogou a saga.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What is the best-selling game console of all time? Let other
+        players tell you if you got it right, and if you don\u2019t, whoever thought
+        you were right must drink with you."
+      cardContentBR: Qual e o console de jogos mais vendido de todos os tempos? Deixe
+        os outros jogadores te dizerem se voce acertou, e se nao, quem achou que
+        voce estava certo deve beber com voce.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever watched the Arcane series."
+      cardContentBR: Beba se voce ja assistiu a serie Arcane.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you find Friends better than The Big Bang Theory.
+      cardContentBR: Beba se voce acha Friends melhor que The Big Bang Theory.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Reveal your favorite pokemon or drink.
+      cardContentBR: Revele seu pokemon favorito ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: In what season do you think Game of Thrones started to get bad?
+        If you think it was before the 5th or have never watched, drink.
+      cardContentBR: Em que temporada voce acha que Game of Thrones comecou a ficar
+        ruim? Se acha que foi antes da 5a ou nunca assistiu, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Which one is better: Game of Thrones or House of the Dragon?
+        If you don\u2019t know or have never watched, drink. If someone disagrees,
+        they drink."
+      cardContentBR: 'Qual e melhor: Game of Thrones ou House of the Dragon? Se nao
+        sabe ou nunca assistiu, tome um gole. Se alguem discordar, essa pessoa toma
+        um gole.'
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019re a Marvel/DC fan."
+      cardContentBR: Tome um gole se for fa de Marvel/DC.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Reveal your favorite superhero. If it\u2019s someone else\u2019s
+        superhero, drink."
+      cardContentBR: Revele seu super-heroi favorito. Se for o super-heroi de alguem,
+        tome um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink for every geek media you consume often.
+      cardContentBR: Tome um gole por cada midia geek que consome com frequencia.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink a sip for every two games you\u2019ve ever played."
+      cardContentBR: Tome um gole a cada dois jogos que ja jogou.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you prefer disney\u2019s old era."
+      cardContentBR: Tome um gole se prefere a era antiga da disney.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "What was your first video game? Drink if it was any kid\u2019s
+        online game."
+      cardContentBR: Qual foi seu primeiro video game? Tome um gole se foi algum
+        jogo online infantil.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Pick a soundtrack from a show or game that could be your life\u2019s
+        soundtrack or drink."
+      cardContentBR: Escolha uma trilha sonora de um show ou jogo que poderia ser
+        a trilha sonora da sua vida ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name an inspiring character from a very geek piece of media. If
+        anyone dislikes that character, they drink.
+      cardContentBR: Nomeie um personagem inspirador de um pedaco bem geek da midia.
+        Se alguem nao gostar desse personagem, toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Reveal a game/show/movie that everyone loves and you tried to
+        play/watch but just couldn\u2019t. If someone really likes that piece, you
+        both drink."
+      cardContentBR: Revele um jogo/serie/filme que todos amam e voce tentou jogar/assistir
+        mas simplesmente nao conseguiu. Se alguem realmente gosta dessa peca, ambos
+        tomam um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Reveal one of your craziest geek theories, if someone thinks
+        you\u2019re insane, drink."
+      cardContentBR: Revele uma das suas teorias geek mais loucas, se alguem achar
+        que voce e louco, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you own a collection.
+      cardContentBR: Tome um gole se tem uma colecao.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Do you have any geek abilities? Share them or drink.
+      cardContentBR: Voce tem alguma habilidade geek? Compartilhe ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Recommend three video games in 10 seconds or drink.
+      cardContentBR: Recomende tres jogos de video em 10 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Reveal a game/HQ/show crush that you have, if it\u2019s someone
+        else\u2019s crush you have to fight for them. The one who drinks faster wins."
+      cardContentBR: Revele uma paixao que voce tem de um jogo/HQ/serie, se for paixao
+        de outra pessoa, terao que lutar por ela. Quem beber mais rapido ganha.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Reveal what is your geek trademark or drink.
+      cardContentBR: Revele qual e sua marca registrada geek ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Everyone must draw, on their phones, the same character in 30
+        seconds, only the one who draws them better doesn\u2019t drink."
+      cardContentBR: Todos devem desenhar, em seus telefones, o mesmo personagem
+        em 30 segundos, apenas o que desenhar melhor nao toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Reveal your favorite geek moment. If someone hates that moment,
+        they drink.
+      cardContentBR: Revele seu momento geek favorito. Se alguem odiar esse momento,
+        toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share a very unknown and random geek fact that you happened to
+        know, if someone else also knows that, drink.
+      cardContentBR: Compartilhe um fato geek muito desconhecido e aleatorio que
+        voce sabe, se mais alguem souber, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Imitate the voice of a videogame character. If anyone guesses,
+        everybody drinks.
+      cardContentBR: Imite a voz de um personagem de videogame. Se alguem acertar,
+        todos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Share a piece of media you would like to consume all alone or
+        drink.
+      cardContentBR: Compartilhe um meio de comunicacao que gostaria de consumir
+        sozinho ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share something embarrassing that happened to you related to geek
+        culture or drink.
+      cardContentBR: "Compartilhe algo embara\xE7oso que aconteceu com voce relacionado
+        a cultura geek ou beba."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Sing the theme music from any show/game/film in 10 seconds or
+        drink.
+      cardContentBR: Cante a musica tema de algum show/jogo/filme em 10 segundos
+        ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "You have 30 seconds to list your three favorite franchises and
+        your three least favorite ones. If you can\u2019t, drink. If someone disagrees,
+        drink."
+      cardContentBR: Voce tem 30 segundos para listar suas tres franquias favoritas
+        e as tres menos favoritas. Se nao conseguir, beba. Se alguem discordar, beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Reveal your perfect geek night or drink.
+      cardContentBR: Revele sua noite geek perfeita ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Reveal your perfect geek date or drink.
+      cardContentBR: Revele seu encontro geek perfeito ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What geek culture character most represents you? If it\u2019s
+        also someone else\u2019s \u201Ckinnie\u201D you both drink."
+      cardContentBR: Qual personagem da cultura geek representa voce? Se for o "kinnie"
+        de outra pessoa, ambos bebem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Reveal your first geek memory or drink.
+      cardContentBR: Revele sua primeira memoria geek ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What was your first zombie media? If it was someone else\u2019s
+        first, everyone else but you two drinks."
+      cardContentBR: Qual foi seu primeiro contato com midia de zumbi? Se foi o primeiro
+        de alguem tambem, todos exceto voces dois bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Tell us a moment where you felt like a real geek or drink.
+      cardContentBR: Conte-nos um momento em que voce se sentiu um verdadeiro geek
+        ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Name five triple A\u2019s in 40 seconds or drink."
+      cardContentBR: Nomeie cinco jogos Triple A em 40 segundos ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name five indie games in 40 seconds or drink.
+      cardContentBR: Nomeie cinco jogos indie em 40 segundos ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share a really unpopular opinion about a geek media piece, and
+        if someone agrees you both must drink.
+      cardContentBR: Compartilhe uma opiniao muito impopular sobre um item de midia
+        geek, e se alguem concordar ambos devem beber.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Who is your favorite HQ villain and why? If someone doesn\u2019t
+        like them, you both drink."
+      cardContentBR: Quem e seu vilao favorito de HQ e por que? Se alguem nao gostar
+        dele, ambos bebem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share an embarrassing moment that you felt like you failed as
+        a geek or drink.
+      cardContentBR: "Compartilhe um momento embara\xE7oso que voce sentiu que falhou
+        como geek ou beba."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name ten characters from your favorite piece of geek media in
+        40 seconds or drink.
+      cardContentBR: Nomeie dez personagens de sua midia geek favorita em 40 segundos
+        ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What secret identity in HQ\u2019s do you think you would see
+        through and why? If someone disagrees, both of you drink."
+      cardContentBR: Qual identidade secreta em HQs voce acha que perceberia e por
+        que? Se alguem discordar, ambos bebem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share the biggest amount of money you spent in a geek interest
+        or drink.
+      cardContentBR: Compartilhe a maior quantia de dinheiro que voce gastou em um
+        interesse geek ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share the plot mistake that annoys you the most, anyone who likes
+        it must drink.
+      cardContentBR: Compartilhe o erro de enredo que mais te irrita, quem gostar
+        deve beber.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Tell everyone your favorite superpower and two more. They have
+        to guess which one you would pick and everyone else drinks.
+      cardContentBR: Diga a todos seu superpoder favorito e mais dois. Eles tem que
+        adivinhar qual voce escolheria e todos os outros bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Say the name of a game with the letter \u201Ca\u201D. The next
+        player must say one with the letter \u201Cb\u201D. Continue until someone
+        misses, and they drink."
+      cardContentBR: Diga o nome de um jogo com a letra "a". O proximo jogador deve
+        dizer um com a letra "b". Continue ate alguem errar, e essa pessoa bebe.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Say a famous TV show you never watched as a kid. The other players
+        will judge if you are worthy of forgiveness and say how much you must drink.
+        (0-4)
+      cardContentBR: Diga um programa de TV famoso que voce nunca assistiu quando
+        crianca. Os outros jogadores julgarao se voce merece perdao e dirao quanto
+        voce deve beber. (0-4)
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Guess what everyone in the room is a geek for and drink for every
+        mistake.
+      cardContentBR: Adivinhe pelo que todos no quarto sao nerds e beba por cada
+        erro.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Ask a geek question and everyone has 30 seconds to answer. Everyone
+        drinks except from the person who guesses it, or you if no one gets it right.
+      cardContentBR: Faca uma pergunta nerd e todos tem 30 segundos para responder.
+        Todos bebem exceto a pessoa que acertar, ou voce se ninguem acertar.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Come up with a crossover. If someone thinks it would be a bad
+        idea, they drink.
+      cardContentBR: Invente um crossover. Se alguem achar que seria uma ma ideia,
+        essa pessoa bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Mimic a character\u2019s war cry. If no one gets who you\u2019re
+        talking about, you all drink."
+      cardContentBR: Imite o grito de guerra de um personagem. Se ninguem adivinhar
+        quem e, todos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Start a debate about a geek piece with someone. The other players
+        will analyze your arguments and the loser drinks.
+      cardContentBR: Comece um debate sobre algo nerd com alguem. Os outros jogadores
+        vao analisar seus argumentos e o perdedor bebe.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Describe a villain with single-words without using their name,
+        only the player who guesses it doesn\u2019t drink."
+      cardContentBR: Descreva um vilao com palavras unicas sem usar o nome dele,
+        apenas o jogador que adivinhar nao bebe.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Defend your favorite franchise from the other players (that must
+        attack it). Winner drinks.
+      cardContentBR: Defenda sua franquia favorita dos outros jogadores (que devem
+        ataca-la). O vencedor bebe.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Prove that you are a fan of something, using facts and curiosities.
+        If someone still thinks you are not enough of a fan, you must drink twice.
+      cardContentBR: Prove que voce e um fa de algo, usando fatos e curiosidades.
+        Se alguem ainda achar que voce nao e fa o suficiente, voce deve beber duas
+        vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Make an obscure reference to something. If someone gets it, all
+        the other players drink.
+      cardContentBR: Faca uma referencia obscura a algo. Se alguem entender, todos
+        os outros jogadores bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: A player must say the name of a character. The player who drew
+        the card must guess where they are from, and if they miss, they drink.
+      cardContentBR: Um jogador deve dizer o nome de um personagem. O jogador que
+        tirou a carta deve adivinhar de onde ele e, e se errar, bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "List important Marvel events in chronological order. If you don\u2019t
+        get it right, drink."
+      cardContentBR: Liste eventos importantes da Marvel em ordem cronologica. Se
+        voce nao acertar, beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Describe your favorite game as it\u2019s placed in a different
+        timeline or universe. If the other players don\u2019t get it right, they
+        all must drink."
+      cardContentBR: Descreva seu jogo favorito como se estivesse em uma linha do
+        tempo ou universo diferentes. Se os outros jogadores nao acertarem, todos
+        devem beber.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Who am i? Assign a character to another player without telling
+        them who it is and let them ask \u201Cyes\u201D or \u201Cno\u201D questions
+        to see if they get it. If they miss, they drink."
+      cardContentBR: Quem sou eu? Atribua um personagem a outro jogador sem dizer
+        quem e e deixe que eles facam perguntas de "sim" ou "nao" para ver se acertam.
+        Se errarem, bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever spent hours thinking about what superpower
+        you\u2019d have."
+      cardContentBR: Beba se voce ja passou horas pensando em que superpoder gostaria
+        de ter.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Imitate Yoda talking for five rounds, if you make a mistake, drink.
+      cardContentBR: Imite o Yoda falando por cinco rodadas, se voce errar, beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Name five famous TV shows from the 90\u2019s in 40 seconds or
+        drink."
+      cardContentBR: Nomeie cinco programas de TV famosos dos anos 90 em 40 segundos
+        ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name four noble Westeros Houses or drink.
+      cardContentBR: Nomeie quatro Casas nobres de Westeros ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Describe your favorite game as if it was super boring and in
+        a really simple way, if someone gets it right, you don\u2019t have to drink."
+      cardContentBR: Descreva seu jogo favorito como se fosse super chato e de um
+        jeito bem simples, se alguem acertar, voce nao precisa beber.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name all the four Hogwarts houses in 7 seconds or drink. Go!
+      cardContentBR: Diga o nome das quatro casas de Hogwarts em 7 segundos ou beba.
+        Vai!
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Describe your favorite anime in a single word, if no one gets
+        which one it is, drink.
+      cardContentBR: Descreva seu anime favorito em uma palavra, se ninguem adivinhar
+        qual e, beba.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name three characters from Star Trek or drink twice.
+      cardContentBR: Diga o nome de tres personagens de Star Trek ou beba duas vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Marvel or DC? Two fans must compete to see who drinks faster.
+      cardContentBR: Marvel ou DC? Dois fas devem competir para ver quem bebe mais
+        rapido.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: What fantasie world would you die to live in? If someone thinks
+        it would be a shitty place to live, drink.
+      cardContentBR: Em que mundo de fantasia voce morreria para viver? Se alguem
+        achar que seria um lugar ruim para viver, beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Recommend a very unknown geek piece of media, if someone\u2019s
+        ever consumed it, drink."
+      cardContentBR: Recomende uma obra geek bem desconhecida, se alguem ja a consumiu,
+        beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you ever cosplayed.
+      cardContentBR: Beba se voce ja fez cosplay.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you ever played RPG.
+      cardContentBR: Beba se voce ja jogou RPG.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you ever did LARP (Live Action Role-Play).
+      cardContentBR: Beba se voce ja fez LARP (Live Action Role-Play).
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever been to a medieval fair."
+      cardContentBR: Beba se voce ja foi a uma feira medieval.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Tell everyone a spoiler without context. If someone knows where
+        it\u2019s from, everybody drinks once, if they don\u2019t know, you drink
+        twice."
+      cardContentBR: Conte um spoiler sem contexto para todos. Se alguem souber de
+        onde e, todos bebem uma vez, se nao souberem, voce bebe duas vezes.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019re embarrassed of some of your geek interests."
+      cardContentBR: Beba se voce tem vergonha de alguns dos seus interesses geeks.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Recreate one of the famous Star Wars duels or drink twice.
+      cardContentBR: Recrie um dos famosos duelos de Star Wars ou beba duas vezes.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Describe a famous pop culture character without saying their name,
+        if no one gets it, you drink once. If someone gets it, drink twice.
+      cardContentBR: Descreva um famoso personagem da cultura pop sem dizer o nome,
+        se ninguem acertar, voce bebe uma vez. Se alguem acertar, beba duas vezes.
+      cardContentTop: 1
   - deckNumber: 0
     deckName: Cinematic Showdown
     timeSeconds: 86400
     onoff: 0
     cor: {r: 0.34117648, g: 0.27058825, b: 0.23137257, a: 1}
-    CardType: []
+    CardType:
+    - cardNumber: 0
+      cardContent: Name three actors of your favorite movie or drink twice.
+      cardContentBR: Diga tres atores do seu filme favorito ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name three actors of a movie chosen by the other players or drink.
+      cardContentBR: Nomeie tres atores de um filme escolhido pelos outros jogadores
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name a movie that everybody here has watched in 15 seconds or
+        drink.
+      cardContentBR: Diga um filme que todos aqui assistiram em 15 segundos ou tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name three movies that Angelina Jolie participated in 40 seconds
+        or drink.
+      cardContentBR: Nomeie tres filmes que Angelina Jolie participou em 40 segundos
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Do a mimic of your favorite movie, if no one guesses which one
+        it is , everyone drinks.
+      cardContentBR: Faca uma mimica do seu filme favorito, se ninguem adivinhar
+        qual e, todos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you consider yourself \u201Ccult\u201D."
+      cardContentBR: Beba se voce se considera "cult".
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Share your Letterboxd or drink. If you don\u2019t own a Letterboxd,
+        everyone drinks."
+      cardContentBR: Compartilhe seu Letterboxd ou beba. Se voce nao tem um Letterboxd,
+        todos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name three Brad Pitt movies in 40 seconds or drink.
+      cardContentBR: Nomeie tres filmes do Brad Pitt em 40 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Maskara or Jurassic Park, which one of these movies was released
+        in the same year as The Lion King? Let other players tell you if you got
+        it right, and if you don\u2019t, whoever thought you were right must drink
+        with you."
+      cardContentBR: Maskara ou Jurassic Park, qual destes filmes foi lancado no
+        mesmo ano que O Rei Leao? Deixe os outros jogadores te dizerem se voce acertou,
+        e se nao, quem achou que voce estava certo deve beber com voce.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: What is the newest movie from the Matrix saga celled? Guess it
+        or the person in your left drinks.
+      cardContentBR: Qual e o filme mais novo da saga Matrix? Adivinhe ou a pessoa
+        a sua esquerda bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name one movie that starred Tom Hanks in 30 seconds or drink.
+      cardContentBR: Diga um filme que teve Tom Hanks em 30 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Which portuguese actress took part in the movie \u201CSuicide
+        Squad\u201D? Let other players tell you if you got it right, and if you don\u2019t,
+        whoever thought you were right must drink with you."
+      cardContentBR: Qual atriz portuguesa participou do filme "Esquadrao Suicida"?
+        Deixe os outros jogadores te dizerem se voce acertou, e se nao, quem achou
+        que voce estava certo deve beber com voce.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name the Avatar protagonist or drink twice.
+      cardContentBR: Nomeie o protagonista de Avatar ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What are everyone's favorite movies? If there\u2019s any objection,
+        the person drinks."
+      cardContentBR: Quais sao os filmes favoritos de todos? Se houver alguma objecao,
+        a pessoa bebe.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you know who the queen\u2019s secret weapon is."
+      cardContentBR: Beba se voce sabe quem e a arma secreta da rainha.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name three of your favorite actors in 10 seconds or drink twice.
+      cardContentBR: Nomeie tres dos seus atores favoritos em 10 segundos ou tome
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Recommend three movies in 10 seconds or drink.
+      cardContentBR: Recomende tres filmes em 10 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Quote a movie line and if anyone guesses where it\u2019s from,
+        everyone drinks."
+      cardContentBR: Cite uma fala de filme e se alguem adivinhar de onde e, todos
+        bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Name a director and if no one gets a movie they\u2019ve done,
+        everyone drinks."
+      cardContentBR: Nomeie um diretor e se ninguem acertar um filme que ele fez,
+        todos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Say a movie you absolutely hate. If anyone likes it, drink.
+      cardContentBR: Diga um filme que voce absolutamente odeia. Se alguem gostar,
+        beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Guess the release year of your favorite movie or drink twice.
+      cardContentBR: Adivinhe o ano de lancamento do seu filme favorito ou tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "In 2017 there was a mistake at the Oscar premiation and La La
+        Land got the trophy by accident. What was the movie that was supposed to
+        win? Let other players tell you if you got it right, and if you don\u2019t,
+        whoever thought you were right must drink with you."
+      cardContentBR: Em 2017 houve um erro na premiacao do Oscar e La La Land pegou
+        o trofeu por acidente. Qual era o filme que deveria ganhar? Deixe os outros
+        jogadores te dizerem se voce acertou, e se nao, quem achou que voce estava
+        certo deve tomar um gole com voce.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Who won the last Oscar premiation for Best Movie? Get it right
+        or drink.
+      cardContentBR: Quem ganhou a ultima premiacao do Oscar para Melhor Filme? Acerte
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Share a famous trope that everyone loves but you, and if someone
+        likes it, they drink.
+      cardContentBR: Compartilhe um cliche famoso que todos amam menos voce, e se
+        alguem gostar, essa pessoa toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Pick a movie and everyone must say if they like it or not, if
+        most people don\u2019t like it, drink."
+      cardContentBR: Escolha um filme e todos devem dizer se gostam ou nao, se a
+        maioria nao gostar, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: A player must tell you three movies, and one of them is their
+        favorite. Pick the right one or drink.
+      cardContentBR: Um jogador deve te dizer tres filmes, e um deles e o seu favorito.
+        Escolha o certo ou tome um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Let someone assign you a favorite movie. If you don\u2019t really
+        like it or never have seen it, they drink."
+      cardContentBR: Deixe alguem te atribuir um filme favorito. Se voce nao gosta
+        de verdade ou nunca viu, essa pessoa toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Describe a movie like it\u2019s from a different genre and let
+        the players guess what you\u2019re actually describing. If someone guesses,
+        everyone else but you and them drinks."
+      cardContentBR: Descreva um filme como se fosse de um genero diferente e deixe
+        os jogadores adivinharem o que voce esta descrevendo. Se alguem adivinhar,
+        todos os outros, exceto voce e a pessoa que adivinhou, tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Say the name of a movie with the letter \u201Ca\u201D. The next
+        player must say one with the letter \u201Cb\u201D. Continue until someone
+        misses, and they drink."
+      cardContentBR: Diga o nome de um filme com a letra "a". O proximo jogador deve
+        dizer um com a letra "b". Continue ate alguem errar, e essa pessoa toma um
+        gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Start a dialogue scene. If no one can add to it, drink.
+      cardContentBR: Comece uma cena de dialogo. Se ninguem conseguir continuar,
+        tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Assign someone a movie genre, if it\u2019s not they\u2019re favorite,
+        drink."
+      cardContentBR: Atribua a alguem um genero de filme, se nao for o favorito dessa
+        pessoa, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "The person in your right must try to guess everyone\u2019s favorite
+        movie genre. If they don\u2019t get at least two right, they drink."
+      cardContentBR: A pessoa a sua direita deve tentar adivinhar o genero de filme
+        favorito de todos. Se ela nao acertar pelo menos dois, toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Opinions on the \u201CTwilight\u201D saga. Haters drink once,
+        fans drink twice."
+      cardContentBR: Opinioes sobre a saga "Crepusculo". Quem nao gosta toma um gole,
+        fas tomam dois.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Let someone assign you a movie director. If it\u2019s not your
+        favorite or close to it, you drink."
+      cardContentBR: Deixe alguem te atribuir um diretor de cinema. Se nao for o
+        seu favorito ou proximo disso, voce toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Is anime cinema, yes or no? Majority drinks.
+      cardContentBR: Anime e cinema, sim ou nao? A maioria toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you consider yourself a good actor, and then prove it.
+      cardContentBR: Tome um gole se voce se considera um bom ator, e depois prove.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Do you prefer movie theaters or streaming platforms? Streamers
+        drink one, classicals drink two.
+      cardContentBR: Voce prefere cinemas ou plataformas de streaming? Quem prefere
+        streaming toma um gole, os classicos tomam dois.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve never seen the movie the person in your
+        right tells you."
+      cardContentBR: Tome um gole se voce nunca viu o filme que a pessoa a sua direita
+        te dizer.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you watch horror movies.
+      cardContentBR: Tome um gole se voce assiste filmes de terror.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "If you\u2019ve ever seen the same movie more than twice, the
+        person in front of you drinks."
+      cardContentBR: Se voce ja viu o mesmo filme mais de duas vezes, a pessoa a
+        sua frente toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink for each time you\u2019ve seen the same movie over and
+        over."
+      cardContentBR: Tome um gole cada vez que voce assistiu o mesmo filme varias
+        vezes.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: If a book is made into a movie, will you read it or watch it first?
+        Readers drink twice, watchers drink once.
+      cardContentBR: Se um livro virou filme, voce vai ler ou assistir primeiro?
+        Quem le toma dois goles, quem assiste toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Name three actors from the best movie you\u2019ve ever seen in
+        30 seconds."
+      cardContentBR: Nomeie tres atores do melhor filme que voce ja viu em 30 segundos.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Name the director of the best movie you\u2019ve ever seen in
+        20 seconds."
+      cardContentBR: Nomeie o diretor do melhor filme que voce ja viu em 20 segundos.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name three actors in the last movie you saw in 30 seconds.
+      cardContentBR: Nomeie tres atores do ultimo filme que voce assistiu em 30 segundos.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name the director of the last movie you saw in 30 seconds.
+      cardContentBR: Nomeie o diretor do ultimo filme que voce assistiu em 30 segundos.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What was the worst movie you\u2019ve ever seen? If someone likes
+        it, they drink."
+      cardContentBR: Qual foi o pior filme que voce ja viu? Se alguem gostar, essa
+        pessoa toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019d like to be an actor."
+      cardContentBR: Tome um gole se voce gostaria de ser um ator.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink you\u2019d like to be a director."
+      cardContentBR: Tome um gole se voce gostaria de ser um diretor.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019d like to work with cinema."
+      cardContentBR: Tome um gole se voce gostaria de trabalhar com cinema.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Animated movies or live actions? Live actioners decide how much
+        they\u2019ll drink and animators drink one more than that."
+      cardContentBR: Filmes animados ou acao ao vivo? Quem prefere acao ao vivo decide
+        quantos goles vai tomar e os animadores tomam mais um que isso.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you dislike documentaries.
+      cardContentBR: Tome um gole se voce nao gosta de documentarios.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: What is your favorite superhero movie? If someone hates it, drink.
+      cardContentBR: Qual e seu filme de super-heroi favorito? Se alguem odiar, tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you cry on movies.
+      cardContentBR: Tome um gole se voce chora em filmes.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you ever disliked a movie and still watched it twice.
+      cardContentBR: Tome um gole se voce nao gostou de um filme e mesmo assim assistiu
+        duas vezes.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: 'Opinions on downloading movies illegally: pirates drink once,
+        law officers drink twice.'
+      cardContentBR: 'Opinioes sobre baixar filmes ilegalmente: piratas tomam um
+        gole, defensores da lei tomam dois.'
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if movie trailers are common in movie theaters in your country.
+      cardContentBR: Tome um gole se trailers de filmes sao comuns em cinemas no
+        seu pais.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "What movie would you like to star in? Give us a demonstration
+        on how you\u2019d do it or drink."
+      cardContentBR: Em qual filme voce gostaria de atuar? De uma demonstracao de
+        como faria isso ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you enjoy movies made in your country.
+      cardContentBR: Tome um gole se voce gosta de filmes feitos no seu pais.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "What clich\xE9 do you absolutely love? If someone is tired of
+        it, drink."
+      cardContentBR: "Qual clich\xEA voce simplesmente adora? Se alguem estiver cansado
+        dele, tome um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: How would you make a really bad movie? If someone thinks it would
+        be nice, they drink.
+      cardContentBR: Como voce faria um filme realmente ruim? Se alguem achar que
+        seria bom, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Which movie star do you think should die today? If anyone likes
+        them, everyone drinks.
+      cardContentBR: Qual estrela de cinema voce acha que deveria morrer hoje? Se
+        alguem gostar dela, todos tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Which movie star do you think should live forever? If anyone hates
+        them, everyone drinks.
+      cardContentBR: Qual estrela de cinema voce acha que deveria viver para sempre?
+        Se alguem nao gostar dela, todos tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: What movie star would make you break up with your partner? If
+        anyone thinks it would be a bad call, drink.
+      cardContentBR: Qual estrela de cinema faria voce terminar com seu parceiro?
+        Se alguem achar que seria uma ma ideia, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "How often would you go to the movie theater if you had free tickets?
+        Drink if it\u2019s more than three a week."
+      cardContentBR: Com que frequencia voce iria ao cinema se tivesse ingressos
+        gratis? Tome um gole se for mais de tres vezes por semana.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Which horror movie is the scariest? Drink if someone wasn\u2019t
+        scared by it."
+      cardContentBR: Qual filme de terror e o mais assustador? Tome um gole se alguem
+        nao tiver se assustado com ele.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "If there was going to be a movie about your life, what genre
+        would it be? If it\u2019s the same as someone here, you both drink."
+      cardContentBR: Se fosse para fazer um filme sobre sua vida, qual genero seria?
+        Se for o mesmo que o de alguem aqui, ambos tomam um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you would let your children be actors if they wanted
+        to.
+      cardContentBR: Tome um gole se voce deixaria seus filhos serem atores se eles
+        quisessem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019d like to be a movie extra."
+      cardContentBR: Tome um gole se voce gostaria de ser um figurante em um filme.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Do you think there\u2019s too much violence in movies nowadays
+        or not enough? Drink once if \u201Ctoo much\u201D and twice if \u201Cnot
+        enough\u201D."
+      cardContentBR: Voce acha que ha muita violencia nos filmes hoje em dia ou nao
+        o suficiente? Tome um gole se for "demais" e dois se for "de menos".
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Do you think there\u2019s too much nudity in movies nowadays
+        or not enough? Pures drink once, perverts drink twice."
+      cardContentBR: Voce acha que ha muita nudez nos filmes hoje em dia ou nao o
+        suficiente? Puros tomam um gole, pervertidos tomam dois.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you think a movie needs to be expensive to be a blockbuster.
+      cardContentBR: Tome um gole se voce acha que um filme precisa ser caro para
+        ser um sucesso de bilheteria.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Would you rather be in a movie or be given $500.000? Drink twice
+        for acting and thrice for money.
+      cardContentBR: Voce prefere estar em um filme ou receber 500.000 dolares? Tome
+        dois goles para atuar e tres para o dinheiro.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019d act in a television drama."
+      cardContentBR: Tome um gole se voce atuaria em um drama de televisao.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019d accept being in a movie even if it was only
+        in your underwear."
+      cardContentBR: Tome um gole se voce aceitasse estar em um filme mesmo que fosse
+        apenas de roupa intima.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Choose someone here to play you in a movie about your life, they
+        have to drink.
+      cardContentBR: Escolha alguem aqui para te interpretar em um filme sobre sua
+        vida, essa pessoa tem que tomar um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Choose someone here to direct a movie about your life, they have
+        to drink.
+      cardContentBR: Escolha alguem aqui para dirigir um filme sobre sua vida, essa
+        pessoa tem que tomar um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Choose someone here to direct a movie about your life, they have
+        to drink.
+      cardContentBR: Escolha alguem aqui para dirigir um filme sobre sua vida, essa
+        pessoa deve tomar um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What are your three most watched movie genres? If it\u2019s a
+        match with another player, everyone else drinks."
+      cardContentBR: Quais sao os tres generos de filme que voce mais assiste? Se
+        coincidir com outro jogador, todos os outros tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Do you know any backroom curiosity about a movie that most people
+        never heard of? Prove it, and if someone knows it, drink.
+      cardContentBR: Voce conhece alguma curiosidade de bastidores sobre um filme
+        que a maioria das pessoas nunca ouviu falar? Prove, e se alguem souber, tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink once if movies are better while eating something, drink
+        twice if that ruins your experience.
+      cardContentBR: Tome um gole se filmes sao melhores acompanhados de comida,
+        tome dois se isso estraga sua experiencia.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Classic or western films? Classicals drink twice, western drink
+        once.
+      cardContentBR: Filmes classicos ou western? Classicos tomam dois goles, western
+        um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever fallen asleep in the middle of a movie."
+      cardContentBR: Tome um gole se ja dormiu no meio de um filme.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink for every movie you\u2019ve ever cried on."
+      cardContentBR: Tome um gole para cada filme em que ja chorou.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name one Oscar prize that was given in the year you were born
+        or drink
+      cardContentBR: Nomeie um premio Oscar que foi dado no ano em que voce nasceu
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Improvise a monologue as you\u2019re receiving an Oscar, if the
+        players think you wouldn\u2019t deserve it, drink."
+      cardContentBR: Improvisar um monologo como se estivesse recebendo um Oscar,
+        se os jogadores acharem que voce nao mereceria, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name part of the crew of a movie chosen by one of the players.
+      cardContentBR: Nomeie parte da equipe de um filme escolhido por um dos jogadores.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name three incredible changes that actors did to their bodies
+        for a role in 40 seconds or drink.
+      cardContentBR: Nomeie tres mudancas incriveis que atores fizeram em seus corpos
+        para um papel em 40 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name a director. The person on your left must name their most
+        famous jobs in 30 seconds or drink.
+      cardContentBR: Nomeie um diretor. A pessoa a sua esquerda deve nomear seus
+        trabalhos mais famosos em 30 segundos ou tomar um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name two famous actors that started in independent movies or drink.
+      cardContentBR: Nomeie dois atores famosos que comecaram em filmes independentes
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell an actor's life story in a minute or drink twice.
+      cardContentBR: Conte a historia de vida de um ator em um minuto ou tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Guess how old an actor of the other player\u2019s choice is or
+        drink twice."
+      cardContentBR: Adivinhe a idade de um ator escolhido pelo outro jogador ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell an acting method used by an actor in any movie or drink.
+      cardContentBR: Fale sobre um metodo de atuacao usado por um ator em qualquer
+        filme ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name a movie that has a special part of a famous actor in it in
+        20 seconds or drink.
+      cardContentBR: Nomeie um filme que tenha uma participacao especial de um ator
+        famoso em 20 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell a role that was rejected by a famous actor or drink twice.
+      cardContentBR: Conte sobre um papel que foi rejeitado por um ator famoso ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name an actor that was nominated for several prizes but never
+        won an oscar or drink.
+      cardContentBR: Diga o nome de um ator que foi indicado para varios premios
+        mas nunca ganhou um oscar ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name two actors that are always escalated for the same roles or
+        drink twice.
+      cardContentBR: Nomeie dois atores que sao sempre escolhidos para os mesmos
+        papeis ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name a director that is also a famous actor or drink thrice.
+      cardContentBR: Nomeie um diretor que tambem e um ator famoso ou tome tres goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name a famous actor who is also a voice actor or drink twice.
+      cardContentBR: Nomeie um ator famoso que tambem e um dublador ou tome dois
+        goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name an actor that is known for doing their own action scenes
+        in 30 seconds or drink twice.
+      cardContentBR: Nomeie um ator conhecido por fazer suas proprias cenas de acao
+        em 30 segundos ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Say what your favorite celebrity power couple is, if someone
+        doesn\u2019t really like them, drink."
+      cardContentBR: Diga qual e o casal poderoso de celebridades favorito, se alguem
+        nao gostar realmente deles, tome um gole.
+      cardContentTop: 0
   - deckNumber: 0
     deckName: Rhythmic Riddles
     timeSeconds: 86400
     onoff: 0
     cor: {r: 0.27058825, g: 0.8980393, b: 0.2392157, a: 1}
     CardType:
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve even been to a concert."
+      cardContentBR: Tome um gole se voce ja foi a um show.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Everyone tells concert stories, the one with the best story doesn\u2019t
+        have to drink."
+      cardContentBR: Todos contam historias de shows, aquele com a melhor historia
+        nao precisa beber.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name ten songs from your favorite band in 50 seconds or drink
+        twice.
+      cardContentBR: Fale dez musicas da sua banda favorita em 50 segundos ou tome
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "What is everyone\u2019s favorite music genre? If anyone says
+        the same genre, they drink."
+      cardContentBR: Qual o genero musical favorito de todos? Se alguem falar o mesmo
+        genero, bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Show your last listened song in the music app you use. Let the
+        other players judge how much you\u2019ll drink based on your musical taste.
+        (0-4)"
+      cardContentBR: Mostre a ultima musica que voce ouviu no aplicativo de musica
+        que usa. Deixe os outros jogadores julgarem quantos goles voce vai tomar
+        baseado no seu gosto musical. (0-4)
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Everybody says their favorite musical artists. If anyone choice\u2019s
+        a match, everyone else drinks."
+      cardContentBR: Todos dizem seus artistas musicais favoritos. Se houver alguma
+        escolha igual, todos os outros bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Say the name of a musical artist with the letter \u201Ca\u201D.
+        The next player must say one with the letter \u201Cb\u201D. Continue until
+        someone misses, and they drink."
+      cardContentBR: Diga o nome de um artista musical com a letra "a". O proximo
+        jogador deve dizer um com a letra "b". Continue ate alguem errar, e essa
+        pessoa bebe.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Act like you're playing an instrument and let the other players
+        guess which one it is. If they don\u2019t, you drink."
+      cardContentBR: Aja como se estivesse tocando um instrumento e deixe os outros
+        jogadores adivinharem qual e. Se eles nao conseguirem, voce bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name a song from a musical genre and let the other players guess
+        what genre it is. If anyone guesses, everyone else drinks.
+      cardContentBR: Diga o nome de uma musica de um genero musical e deixe os outros
+        jogadores adivinharem qual e o genero. Se alguem acertar, os demais tomam
+        um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: You must pick a band, and another player must pick a different
+        band. You both debate which one of them would win in a band duel, and the
+        other players judge who wins. The loser drinks.
+      cardContentBR: Voce deve escolher uma banda e outro jogador deve escolher outra
+        diferente. Ambos debatem qual delas ganharia em um duelo de bandas e os outros
+        jogadores julgam quem ganha. O perdedor toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Pick three songs that would be part of your life\u2019s soundtrack.
+        If there\u2019s a song that would also be part of another player\u2019s soundtrack,
+        they drink."
+      cardContentBR: Escolha tres musicas que fariam parte da trilha sonora da sua
+        vida. Se houver alguma musica que tambem faria parte da trilha de outro jogador,
+        ele toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Clap your hands following the rhythm of a song. If no one guesses
+        what song it is, you drink.
+      cardContentBR: Bata palmas seguindo o ritmo de uma musica. Se ninguem adivinhar
+        qual e a musica, voce toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Pick a song and sing it like it\u2019s from a different artist.
+        If no one guesses who it is really from, everyone drinks."
+      cardContentBR: Escolha uma musica e cante como se fosse de outro artista. Se
+        ninguem adivinhar de quem ela realmente e, todos tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Tell the person in your left three artists, with two of your
+        favorites among them. Let them pick the one that you don\u2019t absolutely
+        love, and if they miss, they drink."
+      cardContentBR: Diga para a pessoa a sua esquerda tres artistas, com dois dos
+        seus favoritos entre eles. Deixe que ela escolha aquele que voce nao ama
+        absolutamente, e se ela errar, toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Tell a random unknown fact about a musical artist you like, if
+        someone already knew that, you both drink.
+      cardContentBR: Conte um fato desconhecido aleatorio sobre um artista musical
+        que voce gosta, se alguem ja souber, ambos tomam um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name a musical artist that you think everybody knows. If someone
+        doesn't, they drink.
+      cardContentBR: Nomeie um artista musical que voce acha que todo mundo conhece.
+        Se alguem nao conhecer, essa pessoa toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever been to a concert of your favorite
+        artist."
+      cardContentBR: Tome um gole se voce ja foi a um concerto do seu artista favorito.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if your favorite musical artist is long way dead.
+      cardContentBR: Tome um gole se o seu artista musical favorito ja morreu ha
+        muito tempo.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Take a drink for each one of your favorite bands.
+      cardContentBR: Tome um gole para cada uma das suas bandas favoritas.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Judge how much everyone must drink based on their musical taste
+        (0-4)
+      cardContentBR: Julgue quanto cada um deve tomar com base no gosto musical deles
+        (de 0 a 4 goles).
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "You must sing a song\u2019s chorus chosen by the other players,
+        if you don\u2019t know the lyrics, drink."
+      cardContentBR: Voce deve cantar o refrao de uma musica escolhida pelos outros
+        jogadores, se voce nao souber a letra, tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name five rock artists in 30 seconds or drink.
+      cardContentBR: Nomeie cinco artistas de rock em 30 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name five indie artists in 30 seconds or drink.
+      cardContentBR: Nomeie cinco artistas indie em 30 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name five pop artists in 30 seconds or drink.
+      cardContentBR: Nomeie cinco artistas pop em 30 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name five rap artists in 30 seconds or drink.
+      cardContentBR: Nomeie cinco artistas de rap em 30 segundos ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink a sip for every hour of your biggest playlist.
+      cardContentBR: Tome um gole por cada hora da sua playlist mais longa.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Mimic a famous musical artist, if no one guesses who it is, everyone
+        drinks.
+      cardContentBR: Imite um artista musical famoso, se ninguem adivinhar quem e,
+        todos bebem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Recite a song\u2019s lyrics like it\u2019s a monologue, if no
+        one guesses the song, you drink."
+      cardContentBR: Recite a letra de uma musica como se fosse um monologo, se ninguem
+        adivinhar a musica, voce bebe.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019re a musical fan."
+      cardContentBR: Beba se voce e um fa de musicais.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Try to guess everyone\u2019s favorite musical artist, if you
+        can\u2019t get at least two right, drink."
+      cardContentBR: Tente adivinhar o artista musical favorito de todos, se nao
+        acertar pelo menos dois, beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Answer a musical question made by the other players, if you get
+        it right, they drink.
+      cardContentBR: Responda a uma pergunta musical feita pelos outros jogadores,
+        se acertar, eles bebem.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you play any instruments.
+      cardContentBR: Beba se voce toca algum instrumento.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Assign an instrument for every person in the room, if any of them
+        actually play it, they drink.
+      cardContentBR: Atribua um instrumento para cada pessoa na sala, se algum deles
+        realmente tocar, bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name five bands in 40 seconds or drink.
+      cardContentBR: Nomeie cinco bandas em 40 segundos ou beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: You have to go to a concert with the person sitting on your right,
+        if your musical taste diverges too much, you both drink.
+      cardContentBR: Voce tem que ir a um show com a pessoa sentada a sua direita,
+        se seu gosto musical divergir demais, ambos bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Define a song using one word that\u2019s not its name, everyone
+        else has 60 seconds to guess which one it is. If no one gets it, you drink.
+        If someone guesses, everyone but you two drinks."
+      cardContentBR: Defina uma musica com uma palavra que nao seja o nome dela,
+        todos os outros tem 60 segundos para adivinhar qual e. Se ninguem acertar,
+        voce bebe. Se alguem adivinhar, todos exceto voces dois bebem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Name the song you\u2019re obsessed with nowadays. If someone
+        dislikes that song, drink."
+      cardContentBR: Nomeie a musica com a qual esta obcecado atualmente. Se alguem
+        nao gostar dessa musica, beba.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink for every song in your favorite album.
+      cardContentBR: Beba por cada musica no seu album favorito.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if your favorite musical artist is a man.
+      cardContentBR: Beba se seu artista musical favorito for homem.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if your favorite musical artist is a woman.
+      cardContentBR: Beba se sua artista musical favorita for mulher.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if your favorite musical artist is gender not conforming.
+      cardContentBR: Beba se seu artista musical favorito nao se conformar com generos.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Choose one of your favorite musical artists and drink for every
+        letter on their name.
+      cardContentBR: Escolha um dos seus artistas musicais favoritos e tome um gole
+        por cada letra do nome dele.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Describe your favorite band in three words, without mentioning
+        a song or the genre of the band. If someone guesses what it is, you both
+        don\u2019t need to drink."
+      cardContentBR: Descreva sua banda favorita em tres palavras, sem mencionar
+        uma musica ou o genero da banda. Se alguem adivinhar qual e, ambos nao precisam
+        tomar um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink for every instrument you play.
+      cardContentBR: Tome um gole para cada instrumento que voce toca.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Do you prefer bands or solo musicians? Minority drinks.
+      cardContentBR: Voce prefere bandas ou musicos solo? A minoria toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Do a duet with the person in front of you. The other players decide
+        how much you both will drink based on your performance. (0-4)
+      cardContentBR: Faca um dueto com a pessoa a sua frente. Os outros jogadores
+        decidem quantos goles voces dois vao tomar baseados na sua performance. (0-4)
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you could guess at least 3 broadway musicals just by
+        listening to single songs.
+      cardContentBR: Tome um gole se voce conseguir adivinhar pelo menos 3 musicais
+        da Broadway apenas ouvindo musicas avulsas.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink for every concert you\u2019ve ever gone to."
+      cardContentBR: Tome um gole para cada show que voce ja foi.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Start singing a song, you and the one who can complete it don\u2019t
+        drink."
+      cardContentBR: Comece a cantar uma musica, voce e quem conseguir completar
+        nao tomam um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Can you sing? Prove it and let the other players choose how much
+        you\u2019ll drink based on your performance. (0-4)"
+      cardContentBR: Voce sabe cantar? Prove e deixe os outros jogadores escolherem
+        quantos goles voce vai tomar baseado na sua performance. (0-4)
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Sing your childhood memory song without committing any mistakes
+        or drink twice.
+      cardContentBR: Cante a musica da sua infancia sem cometer nenhum erro ou tome
+        dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Where does AC/DC originally come from? Get or drink.
+      cardContentBR: De onde o AC/DC e originalmente? Acerte ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Who was Pearl Jam\u2019s lead singer? Get or drink."
+      cardContentBR: Quem foi o vocalista do Pearl Jam? Acerte ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: What singer is Elton John's sons godmother? Get or drink.
+      cardContentBR: Qual cantora e a madrinha dos filhos de Elton John? Acerte ou
+        tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Where is the Rock In Roll Hall Of Fame, in the USA? Get or drink.
+      cardContentBR: Onde fica o Hall da Fama do Rock nos EUA? Acerte ou tome um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Which Pink Floyd album features a prism on the cover? Get or drink.
+      cardContentBR: Qual album do Pink Floyd apresenta um prisma na capa? Acerte
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Who wrote Material Girl? Get or drink.
+      cardContentBR: Quem escreveu Material Girl? Acerte ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Does anybody here not listen to music everyday? They drink.
+      cardContentBR: Alguem aqui nao escuta musica todo dia? Essa pessoa toma um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: What is a musical genre that you particularly dislike? If anybody
+        likes it, you drink.
+      cardContentBR: Qual e o genero musical que voce particularmente nao gosta?
+        Se alguem gostar, voce toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name a hit song from last year. Anyone who likes the song drinks
+        twice, who is tired of it drinks once.
+      cardContentBR: Diga uma musica que foi sucesso no ano passado. Quem gosta da
+        musica toma dois goles, quem esta cansado dela toma um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you listen to music to change your mood.
+      cardContentBR: Tome um gole se voce escuta musica para mudar seu humor.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Do you enjoy dancing? Show us some moves or drink twice.
+      cardContentBR: "Voce gosta de dan\xE7ar? Mostre-nos alguns passos ou tome dois
+        goles."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Stream music or CDs/vinyls? Stream players drink twice, collector
+        players drink once.
+      cardContentBR: Musica em streaming ou CDs/vinis? Quem escuta por streaming
+        toma dois goles, colecionadores tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Sing a song that makes you emotional and explain why or drink.
+      cardContentBR: Cante uma musica que te emociona e explique o por que ou tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you like karaoke.
+      cardContentBR: Tome um gole se voce gosta de karaoke.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: What makes you like a song, the melody or the lyrics? Everyone
+        who says the lyrics drink.
+      cardContentBR: O que faz voce gostar de uma musica, a melodia ou a letra? Todos
+        que dizem a letra tomam um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you listen to music while studying/working.
+      cardContentBR: Tome um gole se voce escuta musica enquanto estuda/trabalha.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink once if you use Spotify, and twice if you use Deezer. Thrice
+        in case you use any other.
+      cardContentBR: Tome um gole se voce usa Spotify, e dois se usa o Deezer. Tres
+        goles caso use outro.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you like music videos.
+      cardContentBR: Tome um gole se voce gosta de videoclipes.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "If you could meet any musician, who would it be? Drink if they\u2019re
+        already dead."
+      cardContentBR: Se voce pudesse conhecer algum musico, quem seria? Tome um gole
+        se ele(a) ja tiver morrido.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Would you rather never listen to music again or never have access
+        to a phone again? Phone addicts drink once, musicians drink twice.
+      cardContentBR: Voce prefere nunca mais ouvir musica ou nunca mais ter acesso
+        a um telefone? Viciados em telefone tomam um gole, musicos tomam dois.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you listen to more songs in english than in your own
+        language.
+      cardContentBR: Tome um gole se voce escuta mais musicas em ingles do que em
+        seu proprio idioma.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Name three songs in Spanish that you like or drink twice.
+      cardContentBR: Diga tres musicas em espanhol que voce gosta ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Drink if you listen to music while exercising.
+      cardContentBR: Tome um gole se voce escuta musica enquanto se exercita.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: If you prefer listening to music in earphones than on speakers,
+        the person in your left drinks.
+      cardContentBR: Se voce prefere ouvir musica de fones de ouvido do que em alto-falantes,
+        a pessoa a sua esquerda toma um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name three catchy songs or drink.
+      cardContentBR: Cite tres musicas chicletes ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: 'Opinions on downloading music illegally: pirates drink once,
+        law officers drink twice.'
+      cardContentBR: 'Opinioes sobre baixar musica ilegalmente: piratas tomam um
+        gole, policiais tomam dois.'
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Drink if you have never heard of MusixMatch.
+      cardContentBR: Tome um gole se voce nunca ouviu falar de MusixMatch.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever burned a CD."
+      cardContentBR: Tome um gole se voce ja gravou um CD.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink if you\u2019ve ever been to a music festival."
+      cardContentBR: Tome um gole se voce ja foi a um festival de musica.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "Drink for every music festival you\u2019ve ever been to."
+      cardContentBR: Tome um gole para cada festival de musica que voce ja foi.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: Reveal your musical guilty pleasure or drink.
+      cardContentBR: Revele seu prazer culposo musical ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: What was the name of the Beatles first album? Get it or drink.
+      cardContentBR: Qual era o nome do primeiro album dos Beatles? Acerte ou tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Which former One Direction member released 'Watermelon Sugar'
+        and 'Adore You'? Whoever gets it doesn\u2019t have to drink."
+      cardContentBR: Qual ex-membro do One Direction lancou 'Watermelon Sugar' e
+        'Adore You'? Quem acertar nao precisa tomar um gole.
+      cardContentTop: 1
+    - cardNumber: 0
+      cardContent: "What is David Bowie\u2019s real surname? Get it or drink."
+      cardContentBR: Qual e o verdadeiro sobrenome de David Bowie? Acerte ou tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Sing a whole popular song without messing up the lyrics or drink.
+      cardContentBR: Cante uma musica popular inteira sem errar a letra ou tome um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name three artists from a musical genre chosen by the other players
+        or drink.
+      cardContentBR: Nomeie tres artistas de um genero musical escolhido pelos outros
+        jogadores ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Name an artist chosen by the player\u2019s first album or drink."
+      cardContentBR: Nomeie o primeiro album de um artista escolhido pelo jogador
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Name an artist chosen by the player\u2019s most famous album
+        or drink."
+      cardContentBR: Nomeie o album mais famoso de um artista escolhido pelo jogador
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Describe an iconic video clip without saying its name, if anyone
+        guesses the song it is from, they don\u2019t drink."
+      cardContentBR: "Descreva um clipe ic\xF4nico sem dizer seu nome, se alguem
+        adivinhar de que musica ele e, nao toma um gole."
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name three songs from famous movies in 40 seconds or drink.
+      cardContentBR: Diga tres musicas de filmes famosos em 40 segundos ou tome um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Name a famous musical artist\u2019s first single or drink."
+      cardContentBR: Nomeie o primeiro single de um artista musical famoso ou tome
+        um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Say an artist won a Grammy in the year you were born or drink.
+      cardContentBR: Diga um artista que ganhou um Grammy no ano em que voce nasceu
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: "Name a famous song that uses another song\u2019s sample or drink."
+      cardContentBR: Nomeie uma musica famosa que usa um sample de outra musica ou
+        tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name all the members of a famous boy band in 30 seconds or drink.
+      cardContentBR: Nomeie todos os membros de uma boy band famosa em 30 segundos
+        ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name three songs that were produced by the same producer or drink
+        twice.
+      cardContentBR: Nomeie tres musicas que foram produzidas pelo mesmo produtor
+        ou tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Sing the theme from a famous TV show or drink.
+      cardContentBR: Cante o tema de uma serie de TV famosa ou tome um gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Name one famous song released in the year you were born or drink
+        twice.
+      cardContentBR: Nomeie uma musica famosa lancada no ano em que voce nasceu ou
+        tome dois goles.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Guess someone who is in the Spotify top 3 today or drink.
+      cardContentBR: Adivinhe alguem que esta no top 3 do Spotify hoje ou tome um
+        gole.
+      cardContentTop: 0
+    - cardNumber: 0
+      cardContent: Guess the most listened artist of the month of the person sat
+        on your left or drink.
+      cardContentBR: Adivinhe o artista mais ouvido do mes da pessoa sentada a sua
+        esquerda ou tome um gole.
+      cardContentTop: 0
     - cardNumber: 0
       cardContent: "Drink if you\u2019ve even been to a concert."
       cardContentBR: Tome um gole se voce ja foi a um show.
@@ -3014,8 +6755,8 @@ MonoBehaviour:
     drinks.+Quem e mais provavel gastar dinheiro com algo bobo? Todos apontam ao
     mesmo tempo, essa pessoa toma um gole. &grupo\r\nOldest player drinks.+O jogador
     mais velho toma um gole. &individual\r\nYoungest player drinks.+O jogador mais
-    novo toma um gole. &individual\r\nEveryone who is shorter than you drinks.+Jogadores
-    que que sao mais baixos que voce tomam um gole. &grupo\r\nEveryone who is taller
+    novo toma um gole. &individual\r\nEveryone who is shorter than you drinks.+Todos
+    que sao mais baixos que voce tomam um gole. &grupo\r\nEveryone who is taller
     than you drinks.+Todos que sao mais altos que voce tomam um gole. &grupo\r\nDrink
     as many times as you\u2019ve been dumped.+Tome goles conforme as vezes que ja
     foi dispensado. &individual\r\nThe person in front of you drinks.+A pessoa a
